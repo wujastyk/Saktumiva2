@@ -16,7 +16,7 @@
 * [Cikitsāsthānam 21-40](https://wujastyk.github.io/Saktumiva2/04-su.ci-21-40/provisional-edition_cikitsasthana_21-40.xml)
 
 ## Kalpasthānam
-* [Kalpasthānam](https://wujastyk.github.io/Saktumiva2/05-su.ka/provisional-edition_kalpasthana.xml/)
+* [Kalpasthānam](https://wujastyk.github.io/Saktumiva2/05-su.ka/provisional-edition_kalpasthana.xml)
 
 ## Uttaratantram
 * [Uttaratantram 1-30](https://wujastyk.github.io/Saktumiva2/06-su.ut-01-30/provisional-edition_uttaratantra-1-30.xml)
