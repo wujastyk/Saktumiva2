@@ -1,7 +1,7 @@
 # Website for the Critical Edition of the Suśrutasaṃhitā, Nepalese Version
 
 ## Ślokasthānam
-* [Ślokasthānam 1-31](https://wujastyk.github.io/Saktumiva2/01-su.su-1-31/provisional-edition_sutrasthana-1-31.xml)
+* [Ślokasthānam  1-31](https://wujastyk.github.io/Saktumiva2/01-su.su-1-31/provisional-edition_sutrasthana-1-31.xml)
 * [Ślokasthānam 32-46](https://wujastyk.github.io/Saktumiva2/01-su.su-32-end/provisional-edition_sutrasthana-32-end.xml)
 
 ## Nidānasthānam
