@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sa-Latn">
+  <teiHeader>
+<listWit>
+<witness xml:id="A" source="04-ci-vulgate-1938_01-20.xml">
+<abbr>A</abbr>
+<expan>Printed edition: Ācārya 1938: Cikitsāsthāna</expan>
+</witness>
+<witness xml:id="Kb" source="kl_699b_cikitsasthana_01-20.xml">
+<abbr>Kb</abbr>
+<expan>MS Kathmandu KL 699, duplicate folio: Cikitsāsthāna</expan>
+</witness>
+<witness xml:id="K" source="kl_699_cikitsasthana_01-20.xml">
+<abbr>K</abbr>
+<expan>MS Kathmandu KL 699: Cikitsāsthāna</expan>
+<listWit>
+<witness xml:id="Kac" n="ac">
+<abbr>Kac</abbr>
+<expan>MS Kathmandu KL 699: Cikitsāsthāna [ante correctionem]</expan>
+</witness>
+<witness xml:id="Kpc" n="pc">
+<abbr type="siglum">Kpc</abbr>
+<expan>MS Kathmandu KL 699: Cikitsāsthāna [post correctionem]</expan>
+</witness>
+</listWit>
+</witness>
+<witness xml:id="H" source="nak_5-333_cikitsasthana_01-20.xml">
+<abbr>H</abbr>
+<expan>MS Kathmandu NAK 5-333</expan>
+<listWit>
+<witness xml:id="Hac" n="ac">
+<abbr>Hac</abbr>
+<expan>MS Kathmandu NAK 5-333 [ante correctionem]</expan>
+</witness>
+<witness xml:id="Hpc" n="pc">
+<abbr type="siglum">Hpc</abbr>
+<expan>MS Kathmandu NAK 5-333 [post correctionem]</expan>
+</witness>
+</listWit>
+</witness>
+<witness xml:id="NE" source="provisional-edition_cikitsasthana_01-20.xml">
+<abbr>NE</abbr>
+<expan>The Nepalese Version of the Suśrutasaṃhitā, Cikitsāsthāna 1-20, based on the
+                    Nepalese MSS</expan>
+</witness>
+</listWit>
+    <encodingDesc>
+      <editorialDecl>
+        <segmentation>
+          <ab type="tokenization">grapheme</ab>
+          <ab type="blockid">SS.4.16.20</ab>
+          <ab type="targetedition">NE</ab>
+          <ab type="scoring">
+            <ab type="match">1</ab>
+            <ab type="mismatch">-1</ab>
+            <ab type="gapopen">-2</ab>
+            <ab type="gapextend">-0.25</ab>
+            <ab type="recursive">true</ab>
+            <ab type="realigndepth">20</ab>
+            <ab type="distancefunction">ngrams</ab>
+            
+          </ab>
+        </segmentation>
+        <normalization method="markup">
+<ab>ignore punctuation</ab>
+<ab>candrabindu as anusvāra</ab>
+<ab>geminated aspirated consonants</ab>
+<ab>geminated m after h</ab>
+<ab>geminated t</ab>
+<ab>geminated consonants after r</ab>
+<ab>final nasal variants</ab>
+<ab>internal nasal variants</ab>
+<ab>final anusvāra variants</ab>
+<ab>visarga aḥ before voiced consonants</ab>
+<ab>visarga aḥ before vowels</ab>
+<ab>visarga aḥ before unvoiced consonants and space + anusvāra</ab>
+<ab>visarga āḥ variants</ab>
+<ab>other visarga variants</ab>
+<ab>superfluous avagrahas</ab>
+<ab>double avagrahas</ab>
+<ab>avagrahas to short a</ab>
+<ab>internal visarga variants</ab>
+<ab>final au/āv</ab>
+<ab>final su</ab>
+<ab>final i</ab>
+<ab>kcch/kś</ab>
+<ab>cś/tś</ab>
+<ab>cch/ch</ab>
+<ab>final t + hi</ab>
+<ab>final t + voiced syllable</ab>
+<ab>final t + n/m</ab>
+<ab>final t + c/j</ab>
+<ab>i/y + vowel</ab>
+<ab>bhd for bdh</ab>
+<ab>remove spaces</ab>
+        </normalization>
+        <ab type="tagfilters">
+<tag subtype="ignore">pc</tag>
+<tag subtype="ignore">abbr</tag>
+<tag subtype="ignore">corr</tag>
+<tag subtype="ignore">ex</tag>
+<tag subtype="ignore">head</tag>
+<tag subtype="ignore">label</tag>
+<tag subtype="ignore">note</tag>
+<tag subtype="ignore">num</tag>
+<tag subtype="ignore">locus</tag>
+<tag subtype="ignore">metamark</tag>
+<tag subtype="ignore">supplied</tag>
+<tag subtype="ignore">surplus</tag>
+        </ab>
+      </editorialDecl>
+    </encodingDesc>
+    <xenoData>
+      <stemma format="nexml" id="stemma0"><nex:nexml xmlns:nex="http://www.nexml.org/2009" version="0.9"><nex:otus id="otus1"><nex:otu id="otu0" label="A"/><nex:otu id="otu1" label="H"/><nex:otu id="otu2" label="NE"/></nex:otus><nex:trees otus="otus1" id="trees1"><nex:tree id="guidetree" label="guidetree" xsi:type="nex:FloatTree" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><nex:node id="ccbefedc-22e9-4499-8e57-dc52e7e34e8b" root="true"/><nex:node id="ba42201d-a320-4118-8da3-7505dcdbfcba"/><nex:node id="9f46b8ed-f5fa-4408-8be5-db7c0900e797" label="A" otu="otu2"/><nex:node id="ed237a30-bf4e-4b97-99d9-fe67068368bf" label="H" otu="otu3"/><nex:node id="4543e394-4076-43fc-b398-53820faa93c7" label="NE" otu="otu4"/><nex:edge source="ccbefedc-22e9-4499-8e57-dc52e7e34e8b" target="ba42201d-a320-4118-8da3-7505dcdbfcba" id="edge0" length="0.25"/><nex:edge source="ccbefedc-22e9-4499-8e57-dc52e7e34e8b" target="4543e394-4076-43fc-b398-53820faa93c7" id="edge1" length="0.25"/><nex:edge source="ba42201d-a320-4118-8da3-7505dcdbfcba" target="9f46b8ed-f5fa-4408-8be5-db7c0900e797" id="edge2" length="0.5"/><nex:edge source="ba42201d-a320-4118-8da3-7505dcdbfcba" target="ed237a30-bf4e-4b97-99d9-fe67068368bf" id="edge3" length="0.5"/></nex:tree></nex:trees></nex:nexml></stemma>
+    </xenoData>
+  </teiHeader>
+<TEI n="A"><text><cl><w n="0" lemma="sa"> sa</w><w n="1">d</w><w n="2" lemma="yaḥ">yaś </w></cl><cl><w n="3" lemma="chiṃ">chin</w><w n="4">na</w><w n="5">v</w><w n="6">ra</w><w n="7">ṇā</w><w n="8" lemma="nāṃ">nāṃ </w><w n="9" lemma="ca">ca </w></cl><cl><w n="10">ka</w><w n="11" lemma="raṃ">rañ</w><w n="12">jā</w><w n="13">d</w><w n="14">ya</w><w n="15">mi</w><w n="16" lemma="daṃ">daṃ </w></cl><cl><w n="17">śu</w><w n="18" lemma="bhaṃ">bham | </w></cl><cl><w n="19">du</w><w n="20">ṣ</w><w n="21">ṭa</w><w n="22">v</w><w n="23">ra</w><w n="24" lemma="ṇāḥ">ṇāś </w><w n="25" lemma="ca">ca </w><w n="26" lemma="ye">ye </w><w n="27">ke</w><w n="28">ci</w><w n="29">d</w><w n="30" lemma="ye">ye </w><w n="31">co</w><w n="32">t</w><w n="33">sṛ</w><w n="34">ṣ</w><w n="35">ṭa</w><w n="36">k</w><w n="37">ri</w><w n="38" lemma="yā">yā </w><w n="39">v</w><w n="40">ra</w><w n="41" lemma="ṇāḥ">ṇāḥ || </w></cl></text></TEI><TEI n="H"><text><cl><w n="0">sa</w><w n="1">d</w><w n="2" lemma="yaḥ">yaś </w></cl><cl><w n="3" lemma="chiṃ">cchin</w><w n="4">na</w><w n="5">v</w><w n="6">ra</w><w n="7">ṇā</w><w n="8" lemma="nāṃ">nāñ </w><w n="9" lemma="ca">ca </w></cl><cl><w n="10">ka</w><w n="11" lemma="raṃ">rañ</w><w n="12">jā</w><w n="13">d</w><w n="14">ya</w><w n="15">mi</w><w n="16" lemma="daṃ">daṃ </w></cl><cl><w n="17">śu</w><w n="18" lemma="bhaṃ">bhaṃ | </w></cl><cl><w n="19"/><w n="20"/><w n="21"/><w n="22"/><w n="23"/><w n="24"/><w n="25"/><w n="26"/><w n="27"/><w n="28"/><w n="29"/><w n="30"/><w n="31"/><w n="32"/><w n="33"/><w n="34"/><w n="35"/><w n="36"/><w n="37"/><w n="38"/><w n="39"/><w n="40"/><w n="41"/></cl></text></TEI><TEI n="NE"><text><cl><w n="0">sa</w><w n="1">d</w><w n="2" lemma="yaḥ">yaś </w></cl><cl><w n="3" lemma="chiṃ">cchin</w><w n="4">na</w><w n="5">v</w><w n="6">ra</w><w n="7">ṇā</w><w n="8" lemma="nāṃ">nāñ </w><w n="9" lemma="ca">ca </w></cl><cl><w n="10">ka</w><w n="11" lemma="raṃ">rañ</w><w n="12">jā</w><w n="13">d</w><w n="14">ya</w><w n="15">mi</w><w n="16" lemma="daṃ">daṃ </w></cl><cl><w n="17">śu</w><w n="18" lemma="bhaṃ">bhaṃ | </w></cl><cl><w n="19"/><w n="20"/><w n="21"/><w n="22"/><w n="23"/><w n="24"/><w n="25"/><w n="26"/><w n="27"/><w n="28"/><w n="29"/><w n="30"/><w n="31"/><w n="32"/><w n="33"/><w n="34"/><w n="35"/><w n="36"/><w n="37"/><w n="38"/><w n="39"/><w n="40"/><w n="41"/></cl></text></TEI></teiCorpus>
