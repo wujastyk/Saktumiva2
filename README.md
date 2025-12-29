@@ -18,10 +18,10 @@ The editions and manuscript transcriptions can be viewed at the links below.  Li
 
 The following edition files are presented using Saktumiva 2.0, written by Charles Li.  Documentation for Saktumiva 2.0 is available at [Github](https://chchch.github.io/saktumiva/docs/).
 
-## Ślokasthānam
+## Sūtrasthānam (also called Ślokasthānam)
 
-* [Ślokasthānam  1-31](https://wujastyk.github.io/Saktumiva2/01-su.su-1-31/provisional-edition_sutrasthana-1-31.xml)
-* [Ślokasthānam 32-46](https://wujastyk.github.io/Saktumiva2/01-su.su-32-end/provisional-edition_sutrasthana-32-end.xml)
+* [Sūtrasthānam  1-31](https://wujastyk.github.io/Saktumiva2/01-su.su-1-31/provisional-edition_sutrasthana-1-31.xml)
+* [Sūtrasthānam 32-46](https://wujastyk.github.io/Saktumiva2/01-su.su-32-end/provisional-edition_sutrasthana-32-end.xml)
 
 ## Nidānasthānam
 * [Nidānasthānam](https://wujastyk.github.io/Saktumiva2/02-su.ni/provisional-edition_nidanasthana.xml)
