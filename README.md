@@ -40,3 +40,4 @@ The following edition files are presented using Saktumiva 2.0, written by Charle
 * [Kumāratantra: adhyāyas 27-37](https://wujastyk.github.io/Saktumiva2/06-su.ut-27-37-kumara%3Aprovisional-edition_uttaratantra-27-37.xml&upama_script=devanagari)
 * [Kyacikitsātantra: adhyāyas 39-57 (with 24)](https://wujastyk.github.io/Saktumiva2/06-su.ut-39-24-57-kayacikitsa%3Aprovisional-edition_uttaratantra-39-24-57.xml&upama_script=devanagari)
 * [Kāyacikitsātantra – Daśaka: adhyāyas 58–66 (with 38)](https://wujastyk.github.io/Saktumiva2/06-su.ut-58-38-66-dasaka%3Aprovisional-edition_uttaratantra-58-38-66.xml&upama_script=devanagari)
+
