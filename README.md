@@ -35,15 +35,8 @@ The following edition files are presented using Saktumiva 2.0, written by Charle
 ## Kalpasthānam
 * [Kalpasthānam](https://wujastyk.github.io/Saktumiva2/05-su.ka/provisional-edition_kalpasthana.xml)
 
-## Uttaratantram 
-- Śālākyatantra: [adhyāyas 1-26](https://wujastyk.github.io/Saktumiva2/06-su.ut-01-26-salakya/provisional-edition_uttaratantra-01-26.xml)
-
-- Kumāratantra: [adhyāyas 27-38](https://wujastyk.github.io/Saktumiva2/06-su.ut-27-38-kumara/provisional-edition_uttaratantra-27-38.xml) 
-
-- Kāyacikitsātantra: [adhyāyas 39-59](https://wujastyk.github.io/Saktumiva2/06-su.ut-39-59-kayacikitsa/provisional-edition_uttaratantra-39-59.xml) 
-
-- Bhūtavidyātantra: [adhyāyas 60-62](https://wujastyk.github.io/Saktumiva2/06-su.ut-60-62-bhuta/provisional-edition_uttaratantra-60-62.xml) 
-
-- Tantrabhūṣaṇādhyāya [adhyāyas 63-66](https://wujastyk.github.io/Saktumiva2/06-su.ut-63-66-tantrabhusana/provisional-edition_uttaratantra-63-66.xml) 
-
-  
+ ## Uttaratantra
+* [Śālākyatantra: adhyāyas 1-26](https://wujastyk.github.io/Saktumiva2/susrutaproject%3A06-su.ut-01-26-salakya%3Aprovisional-edition_uttaratantra-01-26&upama_script=devanagari)
+* [Kumāratantra: adhyāyas 27-37](https://wujastyk.github.io/Saktumiva2/susrutaproject%3A06-su.ut-27-37-kumara%3Aprovisional-edition_uttaratantra-27-37&upama_script=devanagari)
+* [Kyacikitsātantra: adhyāyas 39-57 (with 24)](https://wujastyk.github.io/Saktumiva2/susrutaproject%3A06-su.ut-39-24-57-kayacikitsa%3Aprovisional-edition_uttaratantra-39-24-57&upama_script=devanagari)
+* [Kāyacikitsātantra – Daśaka: adhyāyas 58–66 (with 38)](https://wujastyk.github.io/Saktumiva2/susrutaproject%3A06-su.ut-58-38-66-dasaka%3Aprovisional-edition_uttaratantra-58-38-66&upama_script=devanagari)
