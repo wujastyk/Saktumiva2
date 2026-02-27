@@ -1,4 +1,4 @@
-This is the website for the online new edition and manuscript transcriptions created as part of the [Sushruta Project](http://sushrutaproject.org).  Here, you may view the evolving critical editions of several parts of the *Suśrutasaṃhitā*.  You can also read the various manuscript transcriptions individually, or collate and compare them in the manner of a critical edition. 
+This is the website for the online new edition and manuscript transcriptions created as part of the [Sushruta Project](http://sushrutaproject.github.io).  Here, you may view the evolving critical editions of several parts of the *Suśrutasaṃhitā*.  You can also read the various manuscript transcriptions individually, or collate and compare them in the manner of a critical edition. 
 
 The TEI XML transcriptions of all manuscripts and editions are stored at a [Github project repository](https://github.com/wujastyk/sushrutaproject).
 
