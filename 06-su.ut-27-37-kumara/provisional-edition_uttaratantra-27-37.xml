@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="edition.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+<script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
@@ -1128,18 +1129,18 @@
 </interp><listApp>
   <app loc="6,25">
     <lem wit="#K">navagrahavijñānīyam</lem>
-    <rdg wit="#A">navagrahākṛtivijñānīyam</rdg>
     <rdg wit="#H">navagrahavijñā</rdg>
+    <rdg wit="#A">navagrahākṛtivijñānīyam</rdg>
   </app>
   <app loc="25,33">
-    <rdgGrp type="lemma" select="#A #K">
+    <rdgGrp type="lemma" select="#K #A">
       <lem>adhyāyaṃ</lem>
       <rdg type="minor" wit="#K">adhyāyaṃ <abbr type="suspension">vyā</abbr><ex>khyāsyāmaḥ</ex></rdg>
     </rdgGrp>
     <rdg wit="#H">yam</rdg>
   </app>
   <app loc="33,46">
-    <lem wit="#A #H">vyākhyāsyāmaḥ</lem>
+    <lem wit="#H #A">vyākhyāsyāmaḥ</lem>
     <rdg wit="#K"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.27.2" source="alignments/SS.6.27.2.xml"><interp type="normalization">
@@ -1196,12 +1197,12 @@
       <lem>utpattiṃ</lem>
       <rdg type="minor" wit="#A #K"><caesura/> utpattiṃ</rdg>
     </rdgGrp>
-    <rdg wit="#H"><caesura/> utpattiñ</rdg>
+    <rdg wit="#H"><caesura/> utpatti</rdg>
   </app>
   <app loc="50,57">
     <lem wit="#K">kāraṇāṃ</lem>
     <rdg wit="#A">kāraṇaṃ</rdg>
-    <rdg wit="#H">kāraṇaiñ</rdg>
+    <rdg wit="#H">ñ kāraṇaiñ</rdg>
   </app>
   <app loc="62,76">
     <lem>suśrutaikamanā</lem>
@@ -1265,7 +1266,7 @@
       <lem>caupacārāparadvāñ</lem>
       <rdg type="minor" wit="#K">caupacārāpara<cb n="2"/>dvāñ</rdg>
     </rdgGrp>
-    <rdg wit="#A">prākpradiṣṭāpacārāc</rdg>
+    <rdg wit="#A">prākpradiṣṭāpacārā</rdg>
     <rdg wit="#H">copacārāparadvāñ</rdg>
   </app>
   <app loc="29,43">
@@ -1273,38 +1274,43 @@
       <lem>chaucabhraṣṭaṃ</lem>
       <rdg type="minor" wit="#K #H"><caesura/> chaucabhraṣṭaṃ</rdg>
     </rdgGrp>
-    <rdg wit="#A">chaucabhraṣṭān</rdg>
+    <rdg wit="#A">c chaucabhraṣṭā</rdg>
+  </app>
+  <app loc="43,59">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>maṅgalācārahīnāṃ</lem>
+      <rdg type="minor" wit="#H">maṅgalā<cb/>cārahīnāṃ</rdg>
+    </rdgGrp>
+    <rdg wit="#A">n maṅgalācārahīnān |</rdg>
   </app>
   <app loc="60,67">
     <rdgGrp type="lemma" select="#K">
       <lem>trastāṃ</lem>
       <rdg type="minor" wit="#K"><caesura/> trastāṃ</rdg>
     </rdgGrp>
-    <rdg wit="#A #H"><caesura/> trastān</rdg>
+    <rdg wit="#A #H"><caesura/> trastā</rdg>
   </app>
   <app loc="67,73">
     <lem wit="#K">bhītāṃ</lem>
-    <rdg wit="#A"/>
-    <rdg wit="#H">bhītāñ</rdg>
+    <rdg wit="#A">n hṛṣṭāṃ</rdg>
+    <rdg wit="#H">n bhī</rdg>
   </app>
   <app loc="73,80">
-    <lem wit="#K #H">tritāñs</lem>
-    <rdg wit="#A">hṛṣṭāṃ</rdg>
+    <lem wit="#K">tritāñs</lem>
+    <rdg wit="#A">tarjitān</rdg>
+    <rdg wit="#H">tāñ tritāñs</rdg>
   </app>
-  <app loc="80,88">
-    <lem wit="#K #H">tarjitān</lem>
-    <rdg wit="#A">tarjitān tāḍitān</rdg>
+  <app loc="80,90">
+    <lem wit="#K #H">tarjitān vā</lem>
+    <rdg wit="#A">tāḍitān vā</rdg>
   </app>
-  <app loc="90,96">
-    <lem>pūjā hi</lem>
-    <rdgGrp select="#A #K #H">
-      <rdg type="main">pūjāhetor hi</rdg>
-      <rdg type="minor" wit="#H"><caesura/> pūjāhetor hi</rdg>
+  <app loc="90,100">
+    <lem>pūjā hi syur</lem>
+    <rdg wit="#A">pūjāhetor hiṃsyur</rdg>
+    <rdgGrp select="#K #H">
+      <rdg type="main">pūjāhetor hi syur</rdg>
+      <rdg type="minor" wit="#H"><caesura/> pūjāhetor hi syur</rdg>
     </rdgGrp>
-  </app>
-  <app loc="96,100">
-    <lem wit="#K #H">syur</lem>
-    <rdg wit="#A">ṃsyur</rdg>
   </app>
   <app loc="103,110">
     <lem wit="#K">kumārāṃ</lem>
@@ -1325,14 +1331,21 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,15">
-    <lem wit="#A #K"> aiśvaryasthāste</lem>
-    <rdg wit="#H">aiśvaryas thāste</rdg>
+  <app loc="0,17">
+    <lem wit="#A #K"> aiśvaryasthāste na</lem>
+    <rdg wit="#H">aiśvaryas thāste na</rdg>
   </app>
   <app loc="17,23">
-    <lem wit="#K">śakyam</lem>
-    <rdg wit="#A">śakyā</rdg>
-    <rdg wit="#H">śa<lb n="3"/>kyam viśakyaṃ</rdg>
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>śakyam</lem>
+      <rdg type="minor" wit="#H">śa<lb n="3"/>kyam</rdg>
+    </rdgGrp>
+    <rdg wit="#A"/>
+  </app>
+  <app loc="23,30">
+    <lem wit="#K">viśanto</lem>
+    <rdg wit="#A">śakyā viśanto</rdg>
+    <rdg wit="#H">viśakyaṃ viśanto</rdg>
   </app>
   <app loc="30,34">
     <lem wit="#K">deaṃ</lem>
@@ -1341,7 +1354,14 @@
   </app>
   <app loc="41,49">
     <lem wit="#K #H">mānuṣair</lem>
-    <rdg wit="#A">mānuṣair</rdg>
+    <rdg wit="#A">mānuṣai</rdg>
+  </app>
+  <app loc="49,58">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>viśvarūpā</lem>
+      <rdg type="minor" wit="#H">viśvarūpāḥ</rdg>
+    </rdgGrp>
+    <rdg wit="#A">rviśvarūpāḥ |</rdg>
   </app>
   <app loc="70,90">
     <lem wit="#K">samyagīkṣyābhidhāsye</lem>
@@ -1354,11 +1374,11 @@
   </app>
   <app loc="105,111">
     <lem wit="#K #H">deheṣu</lem>
-    <rdg wit="#A">dehe bhavan</rdg>
+    <rdg wit="#A">dehe bha</rdg>
   </app>
   <app loc="111,115">
     <lem wit="#K #H">tāni</lem>
-    <rdg wit="#A">ti ||</rdg>
+    <rdg wit="#A">vanti ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.27.8" source="alignments/SS.6.27.8.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -1386,9 +1406,9 @@
     </rdgGrp>
     <rdg wit="#A">kṣatajasagandhikaḥ</rdg>
   </app>
-  <app loc="38,46">
-    <lem wit="#A #K">vakrāsyo</lem>
-    <rdg wit="#H">syo</rdg>
+  <app loc="29,46">
+    <lem wit="#A #K">stanadviḍ vakrāsyo</lem>
+    <rdg wit="#H">stanadviḍ <caesura/> ¦<lb n="4"/>syo</rdg>
   </app>
   <app loc="46,69">
     <lem wit="#K #H">hatacaraṇekapatranetraḥ</lem>
@@ -1429,14 +1449,10 @@
     <lem wit="#K"> niḥsaṃjña</lem>
     <rdg wit="#A #H">niḥsaṃjño</rdg>
   </app>
-  <app loc="16,27">
-    <lem wit="#K">punarlabhet</lem>
-    <rdg wit="#A">punar bhavet</rdg>
-    <rdg wit="#H">punar llabhet</rdg>
-  </app>
-  <app loc="27,29">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">sa</rdg>
+  <app loc="16,29">
+    <lem wit="#K">punarlabhet ca</lem>
+    <rdg wit="#A">punar bhavet sa</rdg>
+    <rdg wit="#H">punar llabhet ca</rdg>
   </app>
   <app loc="29,36">
     <rdgGrp type="lemma" select="#K #H">
@@ -1460,20 +1476,19 @@
     </rdgGrp>
     <rdg wit="#A">jṛmbhamāṇaḥ</rdg>
   </app>
-  <app loc="102,109">
+  <app loc="102,111">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>phenāñś</lem>
-      <rdg type="minor" wit="#H"><caesura/> phenāñś</rdg>
+      <lem>phenāñś ca</lem>
+      <rdg type="minor" wit="#H"><caesura/> phenāñś ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">phenaṃ c</rdg>
+    <rdg wit="#A">phenaṃ ca</rdg>
   </app>
-  <app loc="109,111">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">a pra</rdg>
-  </app>
-  <app loc="117,119">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A"/>
+  <app loc="111,119">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>sṛjati ca</lem>
+      <rdg type="minor" wit="#H">sṛjati <cb/> ca</rdg>
+    </rdgGrp>
+    <rdg wit="#A">prasṛjati</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.27.10" source="alignments/SS.6.27.10.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -1490,19 +1505,12 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="20,33">
+  <app loc="20,35">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>vihaṃgagandhā</lem>
-      <rdg type="minor" wit="#H">vihaṅgagandhā</rdg>
+      <lem>vihaṃgagandhā sā</lem>
+      <rdg type="minor" wit="#H">vihaṅgagandhā <caesura/> sā</rdg>
     </rdgGrp>
-    <rdg wit="#A">vihaṅgagandhiḥ s</rdg>
-  </app>
-  <app loc="33,35">
-    <rdgGrp type="lemma" select="#K #H">
-      <lem>sā</lem>
-      <rdg type="minor" wit="#H"><caesura/> sā</rdg>
-    </rdgGrp>
-    <rdg wit="#A">aṃ</rdg>
+    <rdg wit="#A">vihaṅgagandhiḥ saṃ</rdg>
   </app>
   <app loc="35,56">
     <rdgGrp type="lemma" select="#K">
@@ -1547,29 +1555,29 @@
       <lem>mṛdrīte</lem>
       <rdg type="minor" wit="#K #H"><caesura/> mṛdrīte</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> revatyā</rdg>
+    <rdg wit="#A"><caesura/> revatyā vi</rdg>
   </app>
-  <app loc="71,84">
+  <app loc="71,86">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>vyāthitatanuś</lem>
-      <rdg type="minor" wit="#H">vyāthitata<lb n="7"/>nuś</rdg>
+      <lem>vyāthitatanuś ca</lem>
+      <rdg type="minor" wit="#H">vyāthitata<lb n="7"/>nuś ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">viyathitatanuś</rdg>
+    <rdg wit="#A">yathitatanuś ca</rdg>
   </app>
   <app loc="86,96">
     <lem wit="#K #H">karṇanāsāṃ</lem>
-    <rdg wit="#A">karṇanāsaṃ mṛdgāti</rdg>
+    <rdg wit="#A">karṇanāsaṃ</rdg>
   </app>
   <app loc="96,103">
     <rdgGrp type="lemma" select="#K #H">
       <lem>revatyā</lem>
       <rdg type="minor" wit="#H"><caesura/> revatyā</rdg>
     </rdgGrp>
-    <rdg wit="#A">dhruva</rdg>
+    <rdg wit="#A">mṛdgāti</rdg>
   </app>
   <app loc="103,119">
     <lem wit="#K">bhṛśamatipīḍitaḥ</lem>
-    <rdg wit="#A">m abhipīḍitaḥ</rdg>
+    <rdg wit="#A">dhruvam abhipīḍitaḥ</rdg>
     <rdg wit="#H">bhṛśam atipīḍitaḥ</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.27.12" source="alignments/SS.6.27.12.xml"><interp type="normalization">
@@ -1626,12 +1634,12 @@
 </interp><listApp>
   <app loc="8,14">
     <lem wit="#K #H">stanam</lem>
-    <rdg wit="#A">stanam</rdg>
+    <rdg wit="#A">stana</rdg>
   </app>
-  <app loc="31,41">
-    <lem wit="#K">charddirvā</lem>
-    <rdg wit="#A">ardībhir</rdg>
-    <rdg wit="#H"><caesura/> charddir vvā</rdg>
+  <app loc="14,41">
+    <lem wit="#K">atisārakāsahikkāc charddirvā</lem>
+    <rdg wit="#A">matisārakāsahikkācchardībhir</rdg>
+    <rdg wit="#H">atisārakāsahikkāc <caesura/> charddir vvā</rdg>
   </app>
   <app loc="67,76">
     <rdgGrp type="lemma" select="#K">
@@ -1650,7 +1658,7 @@
   </app>
   <app loc="83,89">
     <lem wit="#K">athāpi</lem>
-    <rdg wit="#A">adhaḥśay</rdg>
+    <rdg wit="#A">adhaḥśa</rdg>
     <rdg wit="#H">mathāpi</rdg>
   </app>
   <app loc="89,103">
@@ -1658,20 +1666,15 @@
       <lem>cāmlagandhītaṃ</lem>
       <rdg type="minor" wit="#H">cāmlagandhī <caesura/> taṃ</rdg>
     </rdgGrp>
-    <rdg wit="#A">o 'mlagandhistaṃ</rdg>
+    <rdg wit="#A">yo 'mlagandhistaṃ</rdg>
   </app>
-  <app loc="103,106">
+  <app loc="103,128">
     <rdgGrp type="lemma" select="#K">
-      <lem>yād</lem>
-      <rdg type="minor" wit="#K"><unclear/>yād</rdg>
+      <lem>yād upahatamandhapūtanāyāḥ</lem>
+      <rdg type="minor" wit="#K"><unclear/>yād upahatamandhapūtanāyāḥ</rdg>
     </rdgGrp>
-    <rdg wit="#A">brūyur bh</rdg>
-    <rdg wit="#H">vvrūyād</rdg>
-  </app>
-  <app loc="106,128">
-    <lem wit="#K">upahatamandhapūtanāyāḥ</lem>
-    <rdg wit="#A">iṣaja ihāndhapūtanārtam ||</rdg>
-    <rdg wit="#H">upahatam andha<lb n="2"/>pūtanāyāḥ ||</rdg>
+    <rdg wit="#A">brūyur bhiṣaja ihāndhapūtanārtam ||</rdg>
+    <rdg wit="#H">vvrūyād upahatam andha<lb n="2"/>pūtanāyāḥ ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.27.14" source="alignments/SS.6.27.14.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -1690,23 +1693,27 @@
 </interp><listApp>
   <app loc="0,12">
     <lem wit="#K #H"> ākrandatyati</lem>
-    <rdg wit="#A">udvigro bhṛśam</rdg>
+    <rdg wit="#A"/>
   </app>
   <app loc="12,19">
     <lem wit="#K #H">cakitas</lem>
-    <rdg wit="#A">ati</rdg>
+    <rdg wit="#A">udvigro bhṛśam</rdg>
   </app>
   <app loc="19,21">
     <lem wit="#K #H">tu</lem>
-    <rdg wit="#A"/>
+    <rdg wit="#A">ati</rdg>
   </app>
   <app loc="21,30">
     <lem wit="#K #H">vepamānaḥ</lem>
-    <rdg wit="#A">vepate prarudyāt</rdg>
+    <rdg wit="#A">vepate prarudyā</rdg>
   </app>
-  <app loc="38,45">
-    <lem wit="#K #H">svapiti</lem>
-    <rdg wit="#A">ssvapiti</rdg>
+  <app loc="30,38">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>saṃlīnaḥ</lem>
+      <rdg type="minor" wit="#K">saṃlī<cb n="2"/>naḥ</rdg>
+      <rdg type="minor" wit="#H"><caesura/> saṃlīnaḥ</rdg>
+    </rdgGrp>
+    <rdg wit="#A">t saṃlīnaḥ s</rdg>
   </app>
   <app loc="58,63">
     <lem wit="#K">kūjāḥ</lem>
@@ -1720,31 +1727,20 @@
     </rdgGrp>
     <rdg wit="#A"><caesura/> visrāṅgo</rdg>
   </app>
-  <app loc="73,89">
-    <lem wit="#K">bhuśamatisāryate</lem>
-    <rdg wit="#A">bhṛśam atisāryate</rdg>
-    <rdg wit="#H">bhṛśamatisāryate</rdg>
-  </app>
-  <app loc="89,92">
-    <lem wit="#K">yaḥ</lem>
-    <rdg wit="#A #H">ca y</rdg>
+  <app loc="73,92">
+    <lem wit="#K">bhuśamatisāryate yaḥ</lem>
+    <rdg wit="#A">bhṛśam atisāryate ca ya</rdg>
+    <rdg wit="#H">bhṛśamatisāryate ca yo</rdg>
   </app>
   <app loc="92,99">
     <lem wit="#K">syāttaṃ</lem>
-    <rdg wit="#A">astaṃ</rdg>
-    <rdg wit="#H">o vaitaṃ</rdg>
+    <rdg wit="#A">staṃ jā</rdg>
+    <rdg wit="#H">vaitaṃ</rdg>
   </app>
-  <app loc="99,105">
-    <lem wit="#K">kuryād</lem>
-    <rdg wit="#A">jānīyād</rdg>
-    <rdg wit="#H"><caesura/> vrūyā</rdg>
-  </app>
-  <app loc="105,129">
-    <rdgGrp type="lemma" select="#K #H">
-      <lem>bhiṣagathaśītapūtanārtaḥ</lem>
-      <rdg type="minor" wit="#H">bhiṣag atha śītapūtanārtaḥ</rdg>
-    </rdgGrp>
-    <rdg wit="#A">bhiṣag iha śītapūtanārtam ||</rdg>
+  <app loc="99,129">
+    <lem wit="#K">kuryād bhiṣagathaśītapūtanārtaḥ</lem>
+    <rdg wit="#A">nīyād bhiṣag iha śītapūtanārtam ||</rdg>
+    <rdg wit="#H"><caesura/> vrūyā bhiṣag atha śītapūtanārtaḥ ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.27.15" source="alignments/SS.6.27.15.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -1811,16 +1807,16 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="3,9">
-    <lem wit="#K">phenām</lem>
+  <app loc="0,9">
+    <lem wit="#K"> yaḥ phenām</lem>
     <rdgGrp select="#A #H">
-      <rdg type="main">phenaṃ</rdg>
-      <rdg type="minor" wit="#H">phenam</rdg>
+      <rdg type="main">yaḥ phenaṃ</rdg>
+      <rdg type="minor" wit="#H">yaḥ phenam</rdg>
     </rdgGrp>
   </app>
-  <app loc="15,24">
-    <lem wit="#K #H">vināmyate</lem>
-    <rdg wit="#A">vinamyate</rdg>
+  <app loc="15,26">
+    <lem wit="#K #H">vināmyate ca</lem>
+    <rdg wit="#A">vinamyate ca</rdg>
   </app>
   <app loc="32,39">
     <rdgGrp type="lemma" select="#K #H">
@@ -1837,23 +1833,26 @@
     <lem wit="#K #H">cordhvamīkṣamānaḥ</lem>
     <rdg wit="#A">cordhvamīkṣamāṇaḥ |</rdg>
   </app>
-  <app loc="72,74">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">a</rdg>
+  <app loc="65,74">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>jvaryec ca</lem>
+      <rdg type="minor" wit="#K #H"><caesura/> jvaryec ca</rdg>
+    </rdgGrp>
+    <rdg wit="#A"><caesura/> jvaryeta</rdg>
   </app>
   <app loc="86,99">
     <rdgGrp type="lemma" select="#K #H">
       <lem>vasāśragandhī</lem>
       <rdg type="minor" wit="#H">vasāśraga<cb/>ndhī</rdg>
     </rdgGrp>
-    <rdg wit="#A">vasāsagandhir niḥ</rdg>
+    <rdg wit="#A">vasāsagandhir</rdg>
   </app>
   <app loc="99,106">
     <rdgGrp type="lemma" select="#K #H">
       <lem>sajñeyo</lem>
       <rdg type="minor" wit="#H"><caesura/> sa jñeyo</rdg>
     </rdgGrp>
-    <rdg wit="#A">saṃjño</rdg>
+    <rdg wit="#A">niḥsaṃjño</rdg>
   </app>
   <app loc="115,130">
     <lem wit="#K #H">naigameṣadaṣṭaḥ</lem>
@@ -1876,28 +1875,29 @@
 </interp><listApp>
   <app loc="0,22">
     <lem wit="#K"> dhātrīstanadvidviṣṭava</lem>
-    <rdg wit="#A">prastabdho yaḥ stanadv</rdg>
+    <rdg wit="#A">prastabdho yaḥ stanadve</rdg>
     <rdg wit="#H">dhātrīstanadvidviṣṭavva</rdg>
   </app>
   <app loc="22,28">
     <lem wit="#K #H">āviṣṭo</lem>
-    <rdg wit="#A">eṣī</rdg>
+    <rdg wit="#A">ṣī</rdg>
   </app>
-  <app loc="35,40">
-    <lem wit="#K #H">muhuḥ</lem>
-    <rdg wit="#A">cāviśanmuhuḥ |</rdg>
-  </app>
-  <app loc="44,49">
-    <lem>bālaṃ</lem>
-    <rdg wit="#A">bāla</rdg>
-    <rdgGrp select="#K #H">
-      <rdg type="main">vālaṃ</rdg>
-      <rdg type="minor" wit="#H">vālan</rdg>
+  <app loc="35,44">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>muhuḥ | taṃ</lem>
+      <rdg type="minor" wit="#K">muhuḥ | <caesura/> taṃ</rdg>
+      <rdg type="minor" wit="#H">muhuḥ | <caesura/> tam</rdg>
     </rdgGrp>
+    <rdg wit="#A">cāviśanmuhuḥ | <caesura/> taṃ</rdg>
   </app>
-  <app loc="49,51">
-    <lem wit="#K #H">na</lem>
-    <rdg wit="#A">ma</rdg>
+  <app loc="44,51">
+    <lem>bālaṃ na</lem>
+    <rdg wit="#A">bālama</rdg>
+    <rdgGrp select="#K #H">
+      <rdg type="main">vālaṃ  na</rdg>
+      <rdg type="minor" wit="#K">vālaṃ <cb n="2"/> na</rdg>
+      <rdg type="minor" wit="#H">vālan na</rdg>
+    </rdgGrp>
   </app>
   <app loc="51,61">
     <rdgGrp type="lemma" select="#K #H">
@@ -1951,20 +1951,19 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,7">
-    <lem wit="#K #H"> sarṣapā</lem>
-    <rdg wit="#A">sarṣapān</rdg>
-  </app>
-  <app loc="15,20">
-    <lem wit="#K #H">tatra</lem>
-    <rdg wit="#A">teṣāṃ</rdg>
-  </app>
-  <app loc="20,30">
+  <app loc="7,20">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>tailadīpañ</lem>
-      <rdg type="minor" wit="#H">tailadīpaṃ</rdg>
+      <lem>prakiret tatra</lem>
+      <rdg type="minor" wit="#K">pra<cb n="3"/>kiret tatra</rdg>
     </rdgGrp>
-    <rdg wit="#A">tailairdīpaṃ</rdg>
+    <rdg wit="#A">n prakiretteṣāṃ</rdg>
+  </app>
+  <app loc="20,32">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>tailadīpañ ca</lem>
+      <rdg type="minor" wit="#H">tailadīpaṃ <lb n="6"/> ca</rdg>
+    </rdgGrp>
+    <rdg wit="#A">tailairdīpaṃ ca</rdg>
   </app>
   <app loc="44,54">
     <rdgGrp type="lemma" select="#A #K">
@@ -1997,30 +1996,26 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,16">
-    <lem wit="#K"> sarvaranauṣadhīn</lem>
-    <rdg wit="#A">sarvagandhauṣadhī</rdg>
-    <rdg wit="#H">sarvva<cb/>vanauṣadhīn</rdg>
-  </app>
-  <app loc="16,33">
+  <app loc="0,33">
     <rdgGrp type="lemma" select="#K">
-      <lem>vījāgandhapuṣpair</lem>
-      <rdg type="minor" wit="#K">vījāgandha<lb n="2"/>puṣpair</rdg>
+      <lem> sarvaranauṣadhīn vījāgandhapuṣpair</lem>
+      <rdg type="minor" wit="#K">sarvaranauṣadhīn vījāgandha<lb n="2"/>puṣpair</rdg>
     </rdgGrp>
-    <rdg wit="#A">bījairgandhamālyair</rdg>
-    <rdg wit="#H">vījān gandhapuṣpair</rdg>
+    <rdg wit="#A">sarvagandhauṣadhībījairgandhamālyai</rdg>
+    <rdg wit="#H">sarvva<cb/>vanauṣadhīn vījān gandhapuṣpai</rdg>
   </app>
   <app loc="33,42">
     <lem wit="#K">alaṅkṛtāṃ</lem>
-    <rdg wit="#A">alaṅkṛtam |</rdg>
-    <rdg wit="#H">alaṅkatān |</rdg>
+    <rdg wit="#A">ralaṅkṛtam |</rdg>
+    <rdg wit="#H">ralaṅkatā</rdg>
   </app>
   <app loc="43,49">
-    <rdgGrp type="lemma" select="#K #H">
+    <rdgGrp type="lemma" select="#K">
       <lem>agnaye</lem>
-      <rdg type="minor" wit="#K #H"><caesura/> agnaye</rdg>
+      <rdg type="minor" wit="#K"><caesura/> agnaye</rdg>
     </rdgGrp>
     <rdg wit="#A"><caesura/> agnye</rdg>
+    <rdg wit="#H">n | <caesura/> agnaye</rdg>
   </app>
   <app loc="63,68">
     <lem wit="#A #K">svāhā</lem>
@@ -2048,17 +2043,20 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="47,56">
-    <lem wit="#A #K">ābhivande</lem>
-    <rdg wit="#H">abhivande</rdg>
+  <app loc="45,56">
+    <rdgGrp type="lemma" select="#A #K">
+      <lem>tv ābhivande</lem>
+      <rdg type="minor" wit="#A">tvābhivande</rdg>
+    </rdgGrp>
+    <rdg wit="#H">tvabhivande</rdg>
   </app>
   <app loc="56,59">
     <lem wit="#K #H">haṃ</lem>
     <rdg wit="#A">'haṃ</rdg>
   </app>
-  <app loc="59,72">
-    <lem wit="#K #H">pratigṛṇhīṣva</lem>
-    <rdg wit="#A">pratigṛhṇīṣva</rdg>
+  <app loc="59,74">
+    <lem wit="#K #H">pratigṛṇhīṣva me</lem>
+    <rdg wit="#A">pratigṛhṇīṣva me</rdg>
   </app>
   <app loc="74,79">
     <rdgGrp type="lemma" select="#A">
@@ -2071,20 +2069,16 @@
       <rdg type="minor" wit="#H">valiṃ ||</rdg>
     </rdgGrp>
   </app>
-  <app loc="80,97">
-    <lem wit="#K #H">nīrujānirvvikāraś</lem>
-    <rdg wit="#A"><caesura/> nīrujo nirvikāraś</rdg>
+  <app loc="80,99">
+    <lem wit="#K #H">nīrujānirvvikāraś ca</lem>
+    <rdg wit="#A"><caesura/> nīrujo nirvikāraś ca</rdg>
   </app>
-  <app loc="99,107">
+  <app loc="99,109">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>śiśurvāś</lem>
-      <rdg type="minor" wit="#H">śiśurvvāś</rdg>
+      <lem>śiśurvāś ca</lem>
+      <rdg type="minor" wit="#H">śiśurvvāś ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">śiśur</rdg>
-  </app>
-  <app loc="107,109">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">me</rdg>
+    <rdg wit="#A">śiśurme</rdg>
   </app>
   <app loc="109,116">
     <lem wit="#K">jayatām</lem>
@@ -2139,12 +2133,12 @@
   </app>
   <app loc="7,29">
     <lem wit="#K">skandagrahapratiṣedham</lem>
-    <rdg wit="#A">skandhagrahapratiṣedha</rdg>
+    <rdg wit="#A">skandhagrahapratiṣe</rdg>
     <rdg wit="#H">skandhagrahapratiṣedhanīyam</rdg>
   </app>
   <app loc="29,37">
     <lem wit="#K #H">adhyāyaṃ</lem>
-    <rdg wit="#A">ṃ</rdg>
+    <rdg wit="#A">dhaṃ</rdg>
   </app>
   <app loc="37,50">
     <lem wit="#A #H">vyākhyāsyāmaḥ</lem>
@@ -2184,13 +2178,21 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="62,63">
+  <app loc="41,63">
     <rdgGrp type="lemma" select="#K">
-      <lem>ḥ</lem>
-      <rdg type="minor" wit="#K"><damage/>ḥ<lb n="3"/></rdg>
+      <lem>vātaghnadrumapatrāṇāṃ ḥ</lem>
+      <rdg type="minor" wit="#K"><caesura/> vātaghnadrumapatrāṇāṃ <damage/>ḥ<lb n="3"/></rdg>
     </rdgGrp>
-    <rdg wit="#A">niṣ</rdg>
-    <rdg wit="#H">niḥ</rdg>
+    <rdgGrp select="#A #H">
+      <rdg type="main"> vātaghnadrumapatrāṇāṃ</rdg>
+      <rdg type="minor" wit="#A"><caesura/> vātaghnadrumapatrāṇāṃ</rdg>
+      <rdg type="minor" wit="#H"><caesura/> vātaghnadrumapatrāṇān</rdg>
+    </rdgGrp>
+  </app>
+  <app loc="63,70">
+    <lem wit="#K">kvāthaḥ</lem>
+    <rdg wit="#A">niṣkvāthaḥ</rdg>
+    <rdg wit="#H">niḥ kvā<lb n="2"/>thaḥ</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.28.4" source="alignments/SS.6.28.4.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -2217,11 +2219,11 @@
       <rdg type="minor" wit="#K"><caesura/> aśvagandhasurāmustākotaryā<cb n="2"/>m</rdg>
       <rdg type="minor" wit="#H"><caesura/> <cb/>aśvagandhasurāmustākotaryām</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> sarvagandhasurāmaṇḍakaiḍaryāv</rdg>
+    <rdg wit="#A"><caesura/> sarvagandhasurāmaṇḍakaiḍaryā</rdg>
   </app>
   <app loc="69,72">
     <lem wit="#K #H">api</lem>
-    <rdg wit="#A">āpa</rdg>
+    <rdg wit="#A">vāpa</rdg>
   </app>
   <app loc="72,79">
     <lem wit="#K #H">ceṣyate</lem>
@@ -2246,25 +2248,17 @@
     <lem wit="#K #H"> siddhaṃ</lem>
     <rdg wit="#A">devadāruṇi rāsnāyāṃ madhureṣu drumeṣu ca | <caesura/> siddhaṃ</rdg>
   </app>
-  <app loc="24,43">
-    <lem>pānam asyopakalpayet</lem>
+  <app loc="24,54">
+    <lem>pānam asyopakalpayet | devadāruṇi</lem>
     <rdg wit="#A">pānamasmai prayojayet ||</rdg>
-    <rdg wit="#K #H">pānamasyopakalpayet |</rdg>
-  </app>
-  <app loc="44,54">
-    <rdgGrp type="lemma" select="#K #H">
-      <lem>devadāruṇi</lem>
-      <rdg type="minor" wit="#K"><caesura/> devadāruṇi</rdg>
-      <rdg type="minor" wit="#H"><caesura/> devadā<lb n="3"/>ruṇi</rdg>
+    <rdgGrp select="#K #H">
+      <rdg type="main">pānamasyopakalpayet   devadāruṇi</rdg>
+      <rdg type="minor" wit="#K">pānamasyopakalpayet | <caesura/> devadāruṇi</rdg>
+      <rdg type="minor" wit="#H">pānamasyopakalpayet | <caesura/> devadā<lb n="3"/>ruṇi</rdg>
     </rdgGrp>
-    <rdg wit="#A"/>
   </app>
-  <app loc="54,59">
-    <lem wit="#K #H">rāsnā</lem>
-    <rdg wit="#A"/>
-  </app>
-  <app loc="59,61">
-    <lem wit="#K #H">ca</lem>
+  <app loc="54,61">
+    <lem wit="#K #H">rāsnā ca</lem>
     <rdg wit="#A"/>
   </app>
   <app loc="61,70">
@@ -2339,20 +2333,24 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="21,31">
+  <app loc="21,33">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>śamīvilvāc</lem>
-      <rdg type="minor" wit="#H"><g ref="#newa-gap-filler"/><lb n="4"/> śamīvilvāc</rdg>
+      <lem>śamīvilvāc ca</lem>
+      <rdg type="minor" wit="#H"><g ref="#newa-gap-filler"/><lb n="4"/> śamīvilvāc ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">śamīṃ bilvas</rdg>
-  </app>
-  <app loc="31,33">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">ya</rdg>
+    <rdg wit="#A">śamīṃ bilvasya</rdg>
   </app>
   <app loc="33,41">
     <lem wit="#K #H">vandakaṃ</lem>
-    <rdg wit="#A">kaṇṭakān |</rdg>
+    <rdg wit="#A">kaṇṭakā</rdg>
+  </app>
+  <app loc="42,54">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>mṛgādanyāś ca</lem>
+      <rdg type="minor" wit="#K"><caesura/> <lb n="4"/>mṛgādanyāś ca</rdg>
+      <rdg type="minor" wit="#H"><caesura/> mṛgādanyāś ca</rdg>
+    </rdgGrp>
+    <rdg wit="#A">n | <caesura/> mṛgādanyāś ca</rdg>
   </app>
   <app loc="60,73">
     <rdgGrp type="lemma" select="#K #H">
@@ -2380,30 +2378,39 @@
     <lem wit="#K #H">patākaṃ</lem>
     <rdg wit="#A">patākā</rdg>
   </app>
-  <app loc="26,33">
+  <app loc="26,35">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>raktāṃś</lem>
-      <rdg type="minor" wit="#H">raktāñś</rdg>
+      <lem>raktāṃś ca</lem>
+      <rdg type="minor" wit="#H">raktāñś ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">raktāś</rdg>
+    <rdg wit="#A">raktāś ca</rdg>
   </app>
   <app loc="35,42">
     <lem wit="#K">gandhāṃ</lem>
-    <rdg wit="#A">gandhā</rdg>
-    <rdg wit="#H">gandhān</rdg>
+    <rdg wit="#A #H">gandhā</rdg>
   </app>
-  <app loc="42,51">
-    <rdgGrp type="lemma" select="#K #H">
-      <lem>vividhāṃś</lem>
-      <rdg type="minor" wit="#K">vividhāṃ<cb n="2"/>ś</rdg>
-      <rdg type="minor" wit="#H">vividhāñś</rdg>
+  <app loc="42,53">
+    <rdgGrp type="lemma" select="#K">
+      <lem>vividhāṃś ca</lem>
+      <rdg type="minor" wit="#K">vividhāṃ<cb n="2"/>ś ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">vividhāś</rdg>
+    <rdg wit="#A">vividhāś ca</rdg>
+    <rdg wit="#H">n vividhāñś ca</rdg>
   </app>
   <app loc="53,61">
     <lem wit="#K">bhakṣyāṃ</lem>
-    <rdg wit="#A">bhakṣyāḥ |</rdg>
-    <rdg wit="#H">bhakṣyān |</rdg>
+    <rdgGrp select="#A #H">
+      <rdg type="main">bhakṣyāḥ </rdg>
+      <rdg type="minor" wit="#A">bhakṣyāḥ |</rdg>
+      <rdg type="minor" wit="#H">bhakṣyā</rdg>
+    </rdgGrp>
+  </app>
+  <app loc="62,70">
+    <rdgGrp type="lemma" select="#A #K">
+      <lem>ghaṇṭā ca</lem>
+      <rdg type="minor" wit="#A #K"><caesura/> ghaṇṭā ca</rdg>
+    </rdgGrp>
+    <rdg wit="#H">n | <caesura/> ghaṇṭā ca</rdg>
   </app>
   <app loc="76,88">
     <lem>balinnivedya</lem>
@@ -2443,18 +2450,18 @@
     </rdgGrp>
     <rdg wit="#A">snānaṃ</rdg>
   </app>
-  <app loc="26,28">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">ṣu</rdg>
+  <app loc="19,28">
+    <lem wit="#K #H">catvare ca</lem>
+    <rdg wit="#A">catvareṣu</rdg>
   </app>
-  <app loc="34,49">
-    <lem wit="#K">paraṃśāliyavair</lem>
-    <rdg wit="#A">puraṃ śāliyavair</rdg>
-    <rdg wit="#H">parśāliyavai</rdg>
+  <app loc="28,49">
+    <lem wit="#K">kuryāt paraṃśāliyavair</lem>
+    <rdg wit="#A">kuryāt puraṃ śāliyavai</rdg>
+    <rdg wit="#H">kuryāt parśāliyavai</rdg>
   </app>
   <app loc="49,56">
     <lem wit="#K #H">nivedya</lem>
-    <rdg wit="#A">navais tu | <caesura/> adbhiś ca</rdg>
+    <rdg wit="#A">rnavais tu | <caesura/> adbhiś ca</rdg>
   </app>
   <app loc="57,64">
     <rdgGrp type="lemma" select="#K #H">
@@ -2462,31 +2469,27 @@
       <rdg type="minor" wit="#K"><caesura/> gāya<cb n="3"/>tri</rdg>
       <rdg type="minor" wit="#H"><caesura/> gāyatri</rdg>
     </rdgGrp>
-    <rdg wit="#A">gāyatr</rdg>
+    <rdg wit="#A">gāyatrya</rdg>
   </app>
   <app loc="64,74">
     <lem wit="#K">pūtānibhir</lem>
-    <rdg wit="#A">yabhim</rdg>
+    <rdg wit="#A">bhimantritā</rdg>
     <rdg wit="#H">pūtābhir</rdg>
   </app>
   <app loc="74,81">
     <lem wit="#K #H">ayobhir</lem>
-    <rdg wit="#A">antritābhiḥ</rdg>
+    <rdg wit="#A">bhiḥ</rdg>
   </app>
   <app loc="81,86">
     <lem wit="#K #H">agnim</lem>
     <rdg wit="#A"/>
   </app>
-  <app loc="86,97">
+  <app loc="86,108">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>prajvālayed</lem>
-      <rdg type="minor" wit="#H">pra<lb n="6"/>jvālayed</rdg>
+      <lem>prajvālayed āhrtibhiś ca</lem>
+      <rdg type="minor" wit="#H">pra<lb n="6"/>jvālayed āhrtibhiś ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">prajvālanaṃ vy</rdg>
-  </app>
-  <app loc="97,106">
-    <lem wit="#K #H">āhrtibhiś</lem>
-    <rdg wit="#A">āhṛtibhiś</rdg>
+    <rdg wit="#A">prajvālanaṃ vyāhṛtibhiś ca</rdg>
   </app>
   <app loc="108,114">
     <lem wit="#K #H">dhīmān</lem>
@@ -2509,11 +2512,11 @@
 </interp><listApp>
   <app loc="0,6">
     <lem wit="#K #H"> rakṣām</lem>
-    <rdg wit="#A">rakṣām</rdg>
+    <rdg wit="#A">rakṣā</rdg>
   </app>
   <app loc="6,19">
     <lem wit="#K #H">anupravakṣāmi</lem>
-    <rdg wit="#A">ataḥ pravakṣyāmi</rdg>
+    <rdg wit="#A">mataḥ pravakṣyāmi</rdg>
   </app>
   <app loc="19,26">
     <lem wit="#K #H">vālānām</lem>
@@ -2523,9 +2526,9 @@
     <lem wit="#K #H">pāpanāśanī</lem>
     <rdg wit="#A">pāpanāśinīm |</rdg>
   </app>
-  <app loc="64,78">
-    <lem wit="#K #H">niratandritaiḥ</lem>
-    <rdg wit="#A">bhir atandritaiḥ ||</rdg>
+  <app loc="58,78">
+    <lem wit="#K #H">bhiṣag niratandritaiḥ</lem>
+    <rdg wit="#A">bhiṣagbhir atandritaiḥ ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.28.11" source="alignments/SS.6.28.11.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -2544,12 +2547,12 @@
 </interp><listApp>
   <app loc="19,26">
     <lem wit="#K">vapuṣāṃ</lem>
-    <rdg wit="#A"/>
+    <rdg wit="#A">yaśasāṃ</rdg>
     <rdg wit="#H">vapi<g ref="#newa-gap-filler"/><pb n="dscn3365fol390.jpg"/>ṣāṃ</rdg>
   </app>
-  <app loc="33,38">
-    <lem wit="#K #H">tathā</lem>
-    <rdg wit="#A">vapuṣāṃ tathā |</rdg>
+  <app loc="26,33">
+    <lem wit="#K #H">yaśasān</lem>
+    <rdg wit="#A">vapuṣāṃ</rdg>
   </app>
   <app loc="39,47">
     <rdgGrp type="lemma" select="#A #K">
@@ -2595,7 +2598,11 @@
   </app>
   <app loc="63,71">
     <lem wit="#K">bhagavāṃ</lem>
-    <rdg wit="#A #H">bhagavān</rdg>
+    <rdg wit="#A #H">bhagavā</rdg>
+  </app>
+  <app loc="71,76">
+    <lem wit="#K">guhaḥ</lem>
+    <rdg wit="#A #H">n guhaḥ ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.28.13" source="alignments/SS.6.28.13.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -2633,23 +2640,41 @@
 </interp><listApp>
   <app loc="11,20">
     <lem wit="#K #H">varadharo</lem>
-    <rdg wit="#A">baraḥ śrīmān</rdg>
+    <rdg wit="#A">baraḥ śrīmā</rdg>
+  </app>
+  <app loc="20,40">
+    <lem wit="#K #H">raktacandanabhūṣitaḥ</lem>
+    <rdg wit="#A">n raktacandanabhūṣitaḥ |</rdg>
   </app>
   <app loc="41,56">
     <rdgGrp type="lemma" select="#K #H">
       <lem>raktadivyavapuḥ</lem>
       <rdg type="minor" wit="#K #H"><caesura/> raktadivyavapuḥ</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> raktadivyavapur</rdg>
+    <rdg wit="#A"><caesura/> raktadivyavapu</rdg>
   </app>
   <app loc="56,62">
     <lem wit="#K">śrīmāṃ</lem>
-    <rdg wit="#A">devaḥ</rdg>
-    <rdg wit="#H">śrīmān</rdg>
+    <rdg wit="#A">rdevaḥ</rdg>
+    <rdg wit="#H">śrīmā</rdg>
+  </app>
+  <app loc="62,70">
+    <rdgGrp type="lemma" select="#A #K">
+      <lem>pātutvāṃ</lem>
+      <rdg type="minor" wit="#A">pātu tvāṃ</rdg>
+    </rdgGrp>
+    <rdg wit="#H">n pātu<g ref="#newa-gap-filler"/><lb n="3"/> tvāṃ</rdg>
+  </app>
+  <app loc="70,83">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>krauñcasūdana</lem>
+      <rdg type="minor" wit="#H">krauñcasūdanaḥ</rdg>
+    </rdgGrp>
+    <rdg wit="#A">krauñcasūdanaḥ ||</rdg>
   </app>
   <app loc="83,86">
     <lem wit="#K #H">iti</lem>
-    <rdg wit="#A">ḥ ||</rdg>
+    <rdg wit="#A"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.28.trailer" source="alignments/SS.6.28.trailer.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -2753,17 +2778,9 @@
     <rdg wit="#A">śirīṣo</rdg>
     <rdg wit="#H">śirīṣa</rdg>
   </app>
-  <app loc="19,33">
-    <lem wit="#K #H">surasādirgaṇaś</lem>
-    <rdg wit="#A">surasādiś ca yo</rdg>
-  </app>
-  <app loc="33,35">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">ga</rdg>
-  </app>
-  <app loc="35,38">
-    <lem wit="#K #H">yaḥ</lem>
-    <rdg wit="#A">ṇaḥ |</rdg>
+  <app loc="19,38">
+    <lem wit="#K #H">surasādirgaṇaś ca yaḥ</lem>
+    <rdg wit="#A">surasādiś ca yo gaṇaḥ |</rdg>
   </app>
   <app loc="59,79">
     <lem wit="#A #K">skandāpasmāraśāntaye</lem>
@@ -2784,16 +2801,20 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,18">
+  <app loc="0,20">
     <rdgGrp type="lemma" select="#K #H">
-      <lem> vastumūtravipakvam</lem>
-      <rdg type="minor" wit="#H">vastumūtravipakvan</rdg>
+      <lem> vastumūtravipakvam tu</lem>
+      <rdg type="minor" wit="#H">vastumūtravipakvan tu</rdg>
     </rdgGrp>
-    <rdg wit="#A">sarvagandhavipakvaṃ</rdg>
+    <rdg wit="#A">sarvagandhavipakvaṃ tu</rdg>
   </app>
   <app loc="20,26">
     <lem wit="#K">tailam</lem>
-    <rdg wit="#A #H">tailam</rdg>
+    <rdg wit="#A #H">taila</rdg>
+  </app>
+  <app loc="26,36">
+    <lem wit="#K">abhyañjane</lem>
+    <rdg wit="#A #H">mabhyañjane</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.29.5ab" source="alignments/SS.6.29.5ab.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -2865,12 +2886,12 @@
     <lem wit="#K #H">nakhaṃ</lem>
     <rdg wit="#A">nakhā</rdg>
   </app>
-  <app loc="40,50">
+  <app loc="40,52">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>vṛṣabhasya</lem>
-      <rdg type="minor" wit="#K #H"><caesura/> vṛṣabhasya</rdg>
+      <lem>vṛṣabhasya ca</lem>
+      <rdg type="minor" wit="#K #H"><caesura/> vṛṣabhasya ca</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> vṛkṣabhasya</rdg>
+    <rdg wit="#A"><caesura/> vṛkṣabhasya ca</rdg>
   </app>
   <app loc="74,76">
     <lem wit="#K #H">pi</lem>
@@ -2916,20 +2937,20 @@
   </app>
   <app loc="19,34">
     <lem wit="#K">skandāpasmāraṇo</lem>
-    <rdg wit="#A">skandāpasmāriṇe '</rdg>
+    <rdg wit="#A">skandāpasmāriṇe</rdg>
     <rdg wit="#H">skandāpasmāriṇo</rdg>
   </app>
   <app loc="34,38">
     <lem wit="#K">vato</lem>
-    <rdg wit="#A">vaṭe |</rdg>
+    <rdg wit="#A">'vaṭe |</rdg>
     <rdg wit="#H">vata |</rdg>
   </app>
-  <app loc="39,49">
+  <app loc="39,51">
     <rdgGrp type="lemma" select="#A #K">
-      <lem>catuṣpathe</lem>
-      <rdg type="minor" wit="#A #K"><caesura/> catuṣpathe</rdg>
+      <lem>catuṣpathe ca</lem>
+      <rdg type="minor" wit="#A #K"><caesura/> catuṣpathe ca</rdg>
     </rdgGrp>
-    <rdg wit="#H"><caesura/> catuḥpathe</rdg>
+    <rdg wit="#H"><caesura/> catuḥpathe ca</rdg>
   </app>
   <app loc="51,60">
     <lem wit="#K">kartavyāḥ</lem>
@@ -2940,7 +2961,11 @@
   </app>
   <app loc="60,66">
     <lem wit="#K #H">snānam</lem>
-    <rdg wit="#A">snānam</rdg>
+    <rdg wit="#A">snāna</rdg>
+  </app>
+  <app loc="66,70">
+    <lem wit="#K #H">asya</lem>
+    <rdg wit="#A">masya</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.29.9" source="alignments/SS.6.29.9.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -2962,20 +2987,20 @@
     <rdg wit="#A">ca śiśoḥ</rdg>
     <rdg wit="#H">saśiṇāḥ</rdg>
   </app>
-  <app loc="65,70">
+  <app loc="65,72">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>śivos</lem>
-      <rdg type="minor" wit="#K">śi<cb n="2"/>vos</rdg>
+      <lem>śivos tu</lem>
+      <rdg type="minor" wit="#K">śi<cb n="2"/>vos tu</rdg>
     </rdgGrp>
-    <rdg wit="#A">śivo 's</rdg>
+    <rdg wit="#A">śivo 's tu</rdg>
   </app>
   <app loc="72,80">
     <lem wit="#K #H">vitānena</lem>
-    <rdg wit="#A">vikṛtānana</rdg>
+    <rdg wit="#A">vikṛtānanaḥ ||</rdg>
   </app>
   <app loc="80,83">
     <lem wit="#K #H">iti</lem>
-    <rdg wit="#A">ḥ ||</rdg>
+    <rdg wit="#A"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.29.trailer" source="alignments/SS.6.29.trailer.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -3058,11 +3083,12 @@
 </interp><listApp>
   <app loc="0,6">
     <lem wit="#K #H"> śakuny</lem>
-    <rdg wit="#A">śakuny</rdg>
+    <rdg wit="#A">śakunya</rdg>
   </app>
   <app loc="6,19">
     <lem wit="#K">ābhiparītasya</lem>
-    <rdg wit="#A #H">abhiparītasya</rdg>
+    <rdg wit="#A">bhiparītasya</rdg>
+    <rdg wit="#H">abhiparītasya</rdg>
   </app>
   <app loc="19,25">
     <lem wit="#K #H">kāryaṃ</lem>
@@ -3196,15 +3222,11 @@
   </app>
   <app loc="20,30">
     <lem wit="#K #H">pathyānīha</lem>
-    <rdg wit="#A">tān īhāpi pra</rdg>
+    <rdg wit="#A">tān īhā</rdg>
   </app>
-  <app loc="30,38">
-    <lem wit="#K #H">bhavanti</lem>
-    <rdg wit="#A">yojayet |</rdg>
-  </app>
-  <app loc="38,40">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A"/>
+  <app loc="30,40">
+    <lem wit="#K #H">bhavanti ca</lem>
+    <rdg wit="#A">pi prayojayet |</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.30.6cd" source="alignments/SS.6.30.6cd.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -3300,28 +3322,26 @@
     <lem wit="#A"> balir</lem>
     <rdg wit="#K #H">valir</rdg>
   </app>
-  <app loc="8,17">
-    <lem wit="#K">karañjais</lem>
-    <rdg wit="#A #H">karañje</rdg>
+  <app loc="8,19">
+    <lem wit="#K">karañjais tu</lem>
+    <rdg wit="#A">karañjeṣu</rdg>
+    <rdg wit="#H">karañje tu</rdg>
   </app>
-  <app loc="17,19">
-    <lem wit="#K #H">tu</lem>
-    <rdg wit="#A">ṣu</rdg>
-  </app>
-  <app loc="38,45">
+  <app loc="38,47">
     <rdgGrp type="lemma" select="#K">
-      <lem>niḥkuṭo</lem>
-      <rdg type="minor" wit="#K"><caesura/> niḥkuṭo</rdg>
+      <lem>niḥkuṭo ca</lem>
+      <rdg type="minor" wit="#K"><caesura/> niḥkuṭo ca</rdg>
     </rdgGrp>
-    <rdg wit="#A #H"><caesura/> niṣkuṭe</rdg>
-  </app>
-  <app loc="45,47">
-    <lem wit="#A #K">ca</lem>
-    <rdg wit="#H"/>
+    <rdg wit="#A"><caesura/> niṣkuṭe ca</rdg>
+    <rdg wit="#H"><caesura/> niṣkuṭe</rdg>
   </app>
   <app loc="59,65">
     <lem wit="#K #H">snānam</lem>
-    <rdg wit="#A">snānam</rdg>
+    <rdg wit="#A">snāna</rdg>
+  </app>
+  <app loc="65,69">
+    <lem wit="#K #H">asya</lem>
+    <rdg wit="#A">masya</rdg>
   </app>
   <app loc="69,80">
     <lem wit="#K #H">yathāvidhiṃ</lem>
@@ -3370,9 +3390,9 @@
     <rdg wit="#A">tīkṣṇatuṇḍā śakunī</rdg>
     <rdg wit="#H">tīkṣṇaśakunī</rdg>
   </app>
-  <app loc="56,62">
-    <lem wit="#K #H">devatā</lem>
-    <rdg wit="#A"/>
+  <app loc="56,64">
+    <lem wit="#K #H">devatā te</lem>
+    <rdg wit="#A">te</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.30.11" source="alignments/SS.6.30.11.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -3424,17 +3444,12 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,6">
+  <app loc="0,12">
     <rdgGrp type="lemma" select="#K">
-      <lem>kumāra</lem>
-      <rdg type="minor" wit="#K">kumāra || <unclear/>3 ||<cb n="2"/></rdg>
+      <lem>kumāra || 3 || ❈</lem>
+      <rdg type="minor" wit="#K">kumāra || <unclear/>3 ||<cb n="2"/> ❈</rdg>
     </rdgGrp>
-    <rdg wit="#A">iti suśrutasaṃhitāyām uttaratantrāntargate kumāra</rdg>
-    <rdg wit="#H"/>
-  </app>
-  <app loc="11,12">
-    <lem wit="#K">❈</lem>
-    <rdg wit="#A">tantre śakunīpratiṣedho nāma (caturtho 'dhyāyaḥ, āditaḥ) triṃśo 'dhyāyaḥ || 30 ||</rdg>
+    <rdg wit="#A">iti suśrutasaṃhitāyām uttaratantrāntargate kumāratantre śakunīpratiṣedho nāma (caturtho 'dhyāyaḥ, āditaḥ) triṃśo 'dhyāyaḥ || 30 ||</rdg>
     <rdg wit="#H">śakunīpratiṣedhaś caturthaḥ || ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.31.1" source="alignments/SS.6.31.1.xml"><interp type="normalization">
@@ -3491,12 +3506,12 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,17">
+  <app loc="0,19">
     <rdgGrp type="lemma" select="#K #H">
-      <lem> aśvagandhājaśṛṅgī</lem>
-      <rdg type="minor" wit="#K #H">aśvagandhā ja śṛṅgī</rdg>
+      <lem> aśvagandhājaśṛṅgī ca</lem>
+      <rdg type="minor" wit="#K #H">aśvagandhā ja śṛṅgī ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">aśvagandhā ca śṛṅgī</rdg>
+    <rdg wit="#A">aśvagandhā ca śṛṅgī ca</rdg>
   </app>
   <app loc="19,28">
     <lem wit="#K #H">śārivātha</lem>
@@ -3511,12 +3526,12 @@
     </rdgGrp>
     <rdg wit="#A">punarnavā |</rdg>
   </app>
-  <app loc="40,50">
+  <app loc="40,52">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>sahavidārī</lem>
-      <rdg type="minor" wit="#K #H"><caesura/> sahavidārī</rdg>
+      <lem>sahavidārī ca</lem>
+      <rdg type="minor" wit="#K #H"><caesura/> sahavidārī ca</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> sahe tathā vidārī</rdg>
+    <rdg wit="#A"><caesura/> sahe tathā vidārī ca</rdg>
   </app>
   <app loc="52,57">
     <lem wit="#K #H">tathā</lem>
@@ -3547,14 +3562,14 @@
 </interp><listApp>
   <app loc="0,6">
     <lem wit="#K #H"> tailam</lem>
-    <rdg wit="#A">tailam</rdg>
+    <rdg wit="#A">taila</rdg>
   </app>
   <app loc="6,16">
     <rdgGrp type="lemma" select="#K #H">
       <lem>abhyaṅgane</lem>
       <rdg type="minor" wit="#K #H">abhyaṅga<cb n="2"/>ne</rdg>
     </rdgGrp>
-    <rdg wit="#A">abhyañjane</rdg>
+    <rdg wit="#A">mabhyañjane</rdg>
   </app>
   <app loc="16,21">
     <lem wit="#K #H">kāyaṃ</lem>
@@ -3583,20 +3598,16 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,5">
-    <lem wit="#K #H"> vaṭāś</lem>
-    <rdg wit="#A">dhavāś</rdg>
+  <app loc="0,7">
+    <lem wit="#K #H"> vaṭāś ca</lem>
+    <rdg wit="#A">dhavāśva</rdg>
   </app>
-  <app loc="5,7">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">va</rdg>
-  </app>
-  <app loc="7,36">
+  <app loc="7,38">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>karṇṇakakubhadhātakītindūkeṣu</lem>
-      <rdg type="minor" wit="#K #H">karṇṇakakubhadhātakī<lb n="4"/>tindūkeṣu</rdg>
+      <lem>karṇṇakakubhadhātakītindūkeṣu ca</lem>
+      <rdg type="minor" wit="#K #H">karṇṇakakubhadhātakī<lb n="4"/>tindūkeṣu ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">karṇakakubhadhātakītindukīṣu</rdg>
+    <rdg wit="#A">karṇakakubhadhātakītindukīṣu ca |</rdg>
   </app>
   <app loc="39,49">
     <rdgGrp type="lemma" select="#K #H">
@@ -3615,7 +3626,11 @@
   </app>
   <app loc="64,70">
     <lem wit="#K #H">sarpir</lem>
-    <rdg wit="#A">sarpir</rdg>
+    <rdg wit="#A">sarpi</rdg>
+  </app>
+  <app loc="70,76">
+    <lem wit="#K #H">iṣyate</lem>
+    <rdg wit="#A">riṣyate ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.31.6ab" source="alignments/SS.6.31.6ab.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -3708,14 +3723,10 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,8">
-    <lem wit="#H"> dhārayed</lem>
-    <rdg wit="#A">satataṃ dhārayec</rdg>
-    <rdg wit="#K">dhāraye d</rdg>
-  </app>
-  <app loc="8,12">
-    <lem wit="#K #H">yāpi</lem>
-    <rdg wit="#A">cāpi</rdg>
+  <app loc="0,12">
+    <lem wit="#H"> dhārayed yāpi</lem>
+    <rdg wit="#A">satataṃ dhārayec cāpi</rdg>
+    <rdg wit="#K">dhāraye dyāpi</rdg>
   </app>
   <app loc="12,19">
     <lem wit="#K #H">satataṃ</lem>
@@ -3785,12 +3796,8 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,3">
-    <lem wit="#K #H"> yām</lem>
-    <rdg wit="#A"/>
-  </app>
-  <app loc="3,18">
-    <lem wit="#K #H">upāsannisatataṃ</lem>
+  <app loc="0,18">
+    <lem wit="#K #H"> yām upāsannisatataṃ</lem>
     <rdg wit="#A">upāsate yāṃ satataṃ</rdg>
   </app>
   <app loc="39,56">
@@ -3811,17 +3818,9 @@
     </rdgGrp>
     <rdg wit="#A"><caesura/> revatī</rdg>
   </app>
-  <app loc="83,92">
-    <lem wit="#K #H">śuṣkanāsā</lem>
-    <rdg wit="#A">śuṣkanāmā</rdg>
-  </app>
-  <app loc="92,94">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">yā</rdg>
-  </app>
-  <app loc="96,98">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">te</rdg>
+  <app loc="83,98">
+    <lem wit="#K #H">śuṣkanāsā ca sā ca</lem>
+    <rdg wit="#A">śuṣkanāmā yā sā te</rdg>
   </app>
   <app loc="102,112">
     <lem wit="#K #H">prasīdatām</lem>
@@ -3966,20 +3965,20 @@
     <rdg wit="#A">tugākṣīryāṃ</rdg>
   </app>
   <app loc="43,63">
-    <rdgGrp type="lemma" select="#K #H">
+    <rdgGrp type="lemma" select="#K">
       <lem>kuṣthatālīsakhadirāḥ</lem>
       <rdg type="minor" wit="#K"><caesura/> kuṣthatālīsakhadirāḥ</rdg>
-      <rdg type="minor" wit="#H"><caesura/> kuṣthatālīsakhadirā</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> kuṣṭhatālīśakhadir</rdg>
+    <rdg wit="#A"><caesura/> kuṣṭhatālīśakhadira</rdg>
+    <rdg wit="#H"><caesura/> kuṣthatālīsakhadirāḥ</rdg>
   </app>
   <app loc="63,73">
     <rdgGrp type="lemma" select="#K">
       <lem>rṣapajñane</lem>
       <rdg type="minor" wit="#K"><unclear/>rṣapa<unclear/>jñane</rdg>
     </rdgGrp>
-    <rdg wit="#A">acandanasyandane</rdg>
-    <rdg wit="#H">ḥ sarṣapaiṣṭajane</rdg>
+    <rdg wit="#A">candanasyandane</rdg>
+    <rdg wit="#H">sarṣapaiṣṭajane</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.32.6" source="alignments/SS.6.32.6.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -4020,9 +4019,9 @@
     <rdg wit="#A">gandhanākulikumbhīke</rdg>
     <rdg wit="#H">śananākulakumbhīkā</rdg>
   </app>
-  <app loc="25,34">
-    <lem wit="#K #H">vadarasya</lem>
-    <rdg wit="#A">badarasya</rdg>
+  <app loc="25,36">
+    <lem wit="#K #H">vadarasya ca</lem>
+    <rdg wit="#A">badarasya ca |</rdg>
   </app>
   <app loc="66,70">
     <lem wit="#K #H">saha</lem>
@@ -4054,12 +4053,12 @@
     <lem wit="#K #H">vimvīṃ</lem>
     <rdg wit="#A">bimbīṃ</rdg>
   </app>
-  <app loc="43,54">
+  <app loc="34,56">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>matsyodanañ</lem>
-      <rdg type="minor" wit="#K #H"><caesura/> matsyodanañ</rdg>
+      <lem>dhārayet | matsyodanañ ca</lem>
+      <rdg type="minor" wit="#K #H">dhārayet | <caesura/> matsyodanañ ca</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> matsyaudanaṃ</rdg>
+    <rdg wit="#A">dhārayet | <caesura/> matsyaudanaṃ ca</rdg>
   </app>
   <app loc="63,70">
     <lem wit="#K #H">kṛśaram</lem>
@@ -4099,18 +4098,18 @@
     <lem wit="#K #H"> utsṛṣṭān</lem>
     <rdg wit="#A">ucchiṣṭe</rdg>
   </app>
-  <app loc="8,18">
-    <lem wit="#K #H">nābhiṣekaś</lem>
-    <rdg wit="#A">nābhiṣeke</rdg>
-  </app>
-  <app loc="18,20">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">ṇa</rdg>
+  <app loc="8,20">
+    <lem wit="#K #H">nābhiṣekaś ca</lem>
+    <rdg wit="#A">nābhiṣekeṇa</rdg>
   </app>
   <app loc="25,33">
     <lem wit="#K">snapanam</lem>
-    <rdg wit="#A">snapanam</rdg>
+    <rdg wit="#A">snapana</rdg>
     <rdg wit="#H">snāpanam</rdg>
+  </app>
+  <app loc="33,39">
+    <lem wit="#K #H">iṣyate</lem>
+    <rdg wit="#A">miṣyate |</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.32.9cd" source="alignments/SS.6.32.9cd.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -4200,18 +4199,13 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,6">
+  <app loc="0,12">
     <rdgGrp type="lemma" select="#K">
-      <lem> kumāra</lem>
-      <rdg type="minor" wit="#K">kumāra || <unclear/></rdg>
+      <lem> kumāra || 3 || ❈</lem>
+      <rdg type="minor" wit="#K">kumāra || <unclear/>3 || ❈</rdg>
     </rdgGrp>
-    <rdg wit="#A">iti suśrutasaṃhitāyām uttaratantrāntargate kumāra</rdg>
-    <rdg wit="#H">pūtanāpratiṣedh</rdg>
-  </app>
-  <app loc="11,12">
-    <lem wit="#K">❈</lem>
-    <rdg wit="#A">tantre (ṣaṣṭho 'dhyāyaḥ, āditaḥ) dvātriṃśo 'dhyāyaḥ ||32 ||</rdg>
-    <rdg wit="#H">aḥ ṣaṣṭhaḥ || ||</rdg>
+    <rdg wit="#A">iti suśrutasaṃhitāyām uttaratantrāntargate kumāratantre (ṣaṣṭho 'dhyāyaḥ, āditaḥ) dvātriṃśo 'dhyāyaḥ ||32 ||</rdg>
+    <rdg wit="#H">pūtanāpratiṣedhaḥ ṣaṣṭhaḥ || ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.33.1" source="alignments/SS.6.33.1.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -4274,31 +4268,30 @@
 </interp><listApp>
   <app loc="0,15">
     <lem wit="#K #H"> tiktakadrumāṇāṃ</lem>
-    <rdg wit="#A">tiktakadrumapatrāṇāṃ</rdg>
+    <rdg wit="#A">tiktakadruma</rdg>
   </app>
-  <app loc="15,22">
-    <lem wit="#K #H">patraiś</lem>
-    <rdg wit="#A"/>
-  </app>
-  <app loc="22,24">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A"/>
+  <app loc="15,24">
+    <lem wit="#K #H">patraiś ca</lem>
+    <rdg wit="#A">patrāṇāṃ</rdg>
   </app>
   <app loc="24,31">
     <lem wit="#K #H">kvāthaḥ</lem>
-    <rdg wit="#A"/>
+    <rdg wit="#A">kāryaḥ</rdg>
+  </app>
+  <app loc="31,36">
+    <lem wit="#K #H">kāryo</lem>
+    <rdg wit="#A">kvātho</rdg>
   </app>
   <app loc="36,44">
     <rdgGrp type="lemma" select="#K">
       <lem>vasecane</lem>
       <rdg type="minor" wit="#K">va<cb n="2"/>secane</rdg>
     </rdgGrp>
-    <rdg wit="#A">kvātho 'vasecane |</rdg>
-    <rdg wit="#H">'vasecane |</rdg>
+    <rdg wit="#A #H">'vasecane |</rdg>
   </app>
-  <app loc="49,59">
-    <lem wit="#K #H">sauvīrakañ</lem>
-    <rdg wit="#A">sauvīrakaṃ</rdg>
+  <app loc="49,66">
+    <lem wit="#K #H">sauvīrakañ kuṣṭhaṃ</lem>
+    <rdg wit="#A">sauvīrakaṃ kuṣṭhaṃ</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.33.4" source="alignments/SS.6.33.4.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -4329,16 +4322,12 @@
     </rdgGrp>
     <rdg wit="#A">caiva</rdg>
   </app>
-  <app loc="29,40">
-    <lem wit="#K #H">apasaṃharet</lem>
-    <rdg wit="#A">upadiśyate |</rdg>
-  </app>
-  <app loc="42,61">
+  <app loc="29,61">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>pippalīpippalīmūlaṃ</lem>
-      <rdg type="minor" wit="#K #H"><caesura/> pippalīpippalīmūlaṃ</rdg>
+      <lem>apasaṃharet || pippalīpippalīmūlaṃ</lem>
+      <rdg type="minor" wit="#K #H">apasaṃharet || <caesura/> pippalīpippalīmūlaṃ</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> pippalyaḥ pippalīmūlaṃ</rdg>
+    <rdg wit="#A">upadiśyate | <caesura/> pippalyaḥ pippalīmūlaṃ</rdg>
   </app>
   <app loc="61,67">
     <lem wit="#K #H">vargam</lem>
@@ -4377,9 +4366,9 @@
     </rdgGrp>
     <rdg wit="#A">śālapārṇī</rdg>
   </app>
-  <app loc="9,17">
-    <lem wit="#K #H">vṛhatyau</lem>
-    <rdg wit="#A">bṛhatyau</rdg>
+  <app loc="9,19">
+    <lem wit="#K #H">vṛhatyau ca</lem>
+    <rdg wit="#A">bṛhatyau ca</rdg>
   </app>
   <app loc="29,32">
     <lem wit="#K #H">api</lem>
@@ -4430,30 +4419,18 @@
   </app>
   <app loc="16,21">
     <lem wit="#K #H">keśāḥ</lem>
-    <rdg wit="#A">keśāṃ</rdg>
+    <rdg wit="#A">keśāṃś</rdg>
   </app>
   <app loc="21,28">
     <lem wit="#K #H">ścarmma</lem>
-    <rdg wit="#A">ś carma</rdg>
+    <rdg wit="#A">carma</rdg>
   </app>
-  <app loc="28,42">
-    <lem wit="#K #H">sarvppatvageṣu</lem>
-    <rdg wit="#A">sarpatva</rdg>
-  </app>
-  <app loc="42,44">
+  <app loc="28,44">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>ca</lem>
-      <rdg type="minor" wit="#H">ca <lb n="6"/></rdg>
+      <lem>sarvppatvageṣu ca</lem>
+      <rdg type="minor" wit="#H">sarvppatvageṣu ca <lb n="6"/></rdg>
     </rdgGrp>
-    <rdg wit="#A">caṃ</rdg>
-  </app>
-  <app loc="45,52">
-    <rdgGrp type="lemma" select="#K #H">
-      <lem>jīrṇṇāñ</lem>
-      <rdg type="minor" wit="#K"><caesura/> jīrṇṇāñ</rdg>
-      <rdg type="minor" wit="#H"><caesura/> jīrṇṇāṃ</rdg>
-    </rdgGrp>
-    <rdg wit="#A">tathā | <caesura/> jīrṇāṃ</rdg>
+    <rdg wit="#A">sarpatvacaṃ tathā |</rdg>
   </app>
   <app loc="69,88">
     <lem wit="#K #H">dhūpanāyopakalpayet</lem>
@@ -4479,30 +4456,35 @@
       <lem>markaṭīvimvīm</lem>
       <rdg type="minor" wit="#H">markkaṭīvimvīm</rdg>
     </rdgGrp>
-    <rdg wit="#A">markaṭīṃ śimbīm</rdg>
+    <rdg wit="#A">markaṭīṃ śimbī</rdg>
   </app>
   <app loc="21,28">
     <lem wit="#K">anantāś</lem>
-    <rdg wit="#A">anantāṃ</rdg>
+    <rdg wit="#A">manantāṃ</rdg>
     <rdg wit="#H">anantā</rdg>
   </app>
-  <app loc="42,52">
+  <app loc="32,52">
     <rdgGrp type="lemma" select="#A #K">
-      <lem>māṃsamāmaṃ</lem>
-      <rdg type="minor" wit="#A #K"><caesura/> māṃsamāmaṃ</rdg>
+      <lem>dhārayet || māṃsamāmaṃ</lem>
+      <rdg type="minor" wit="#A">dhārayet | <caesura/> māṃsamāmaṃ</rdg>
+      <rdg type="minor" wit="#K">dhārayet || <caesura/> māṃsamāmaṃ</rdg>
     </rdgGrp>
-    <rdg wit="#H"><caesura/> mānsamāsan</rdg>
+    <rdg wit="#H">dhārayet || <caesura/> mānsamāsan</rdg>
   </app>
-  <app loc="57,69">
-    <lem wit="#K">pakvaśoṇitañ</lem>
+  <app loc="57,71">
+    <lem wit="#K">pakvaśoṇitañ ca</lem>
     <rdgGrp select="#A #H">
-      <rdg type="main">pakvaṃ śoṇitaṃ</rdg>
-      <rdg type="minor" wit="#H">pakvaṃ śoṇitañ</rdg>
+      <rdg type="main">pakvaṃ śoṇitaṃ ca</rdg>
+      <rdg type="minor" wit="#H">pakvaṃ śoṇitañ ca</rdg>
     </rdgGrp>
   </app>
   <app loc="71,76">
     <lem wit="#K">catuḥ</lem>
-    <rdg wit="#A #H">catuṣ</rdg>
+    <rdg wit="#A #H">catu</rdg>
+  </app>
+  <app loc="76,81">
+    <lem wit="#K">pathe</lem>
+    <rdg wit="#A #H">ṣpathe ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.33.8" source="alignments/SS.6.33.8.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -4519,17 +4501,13 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="8,13">
-    <lem wit="#K #H">antañ</lem>
-    <rdg wit="#A">antaś</rdg>
+  <app loc="8,15">
+    <lem wit="#K #H">antañ ca</lem>
+    <rdg wit="#A">antaś ca</rdg>
   </app>
   <app loc="19,24">
     <lem wit="#K #H">śiśoḥ</lem>
-    <rdg wit="#A">śiśo rakṣānimittataḥ | <caesura/> śiśoś</rdg>
-  </app>
-  <app loc="24,32">
-    <lem wit="#K #H">snapanam</lem>
-    <rdg wit="#A">ca snapanaṃ</rdg>
+    <rdg wit="#A">śiśo rakṣānimittataḥ | <caesura/> śiśoś ca</rdg>
   </app>
   <app loc="32,38">
     <lem wit="#K #H">iṣyate</lem>
@@ -4575,7 +4553,11 @@
   </app>
   <app loc="55,63">
     <lem wit="#K #H">rakṣatām</lem>
-    <rdg wit="#A">saṃrakṣatv</rdg>
+    <rdg wit="#A">saṃrakṣatv a</rdg>
+  </app>
+  <app loc="63,74">
+    <lem wit="#K #H">andhapūtanā</lem>
+    <rdg wit="#A">ndhapūtanā ||</rdg>
   </app>
   <app loc="74,77">
     <lem wit="#K #H">iti</lem>
@@ -4596,17 +4578,12 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,6">
+  <app loc="0,12">
     <rdgGrp type="lemma" select="#K">
-      <lem> kumāra</lem>
-      <rdg type="minor" wit="#K">kumāra || <unclear/></rdg>
+      <lem> kumāra || 7 || ❈</lem>
+      <rdg type="minor" wit="#K">kumāra || <unclear/> || ❈</rdg>
     </rdgGrp>
-    <rdg wit="#A">iti suśrutasaṃhitāyām uttaratantrāntargate kumāra</rdg>
-    <rdg wit="#H"/>
-  </app>
-  <app loc="11,12">
-    <lem wit="#K">❈</lem>
-    <rdg wit="#A">tantre 'ndhapūtanāpratiṣedho nāma (saptamo 'dhyāyaḥ, āditaḥ) trayastriṃśo 'dhyāyaḥ ||33 ||</rdg>
+    <rdg wit="#A">iti suśrutasaṃhitāyām uttaratantrāntargate kumāratantre 'ndhapūtanāpratiṣedho nāma (saptamo 'dhyāyaḥ, āditaḥ) trayastriṃśo 'dhyāyaḥ ||33 ||</rdg>
     <rdg wit="#H">andhapūtanāpratiṣedhaḥ saptamodhyāyaḥ || ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.34.1" source="alignments/SS.6.34.1.xml"><interp type="normalization">
@@ -4625,15 +4602,13 @@
   </desc>
 </interp><listApp>
   <app loc="7,28">
-    <rdgGrp type="lemma" select="#A #K">
-      <lem>śītapūtanāpratiṣedhaṃ</lem>
-      <rdg type="minor" wit="#K">śītapūtanā<lb n="3"/>pratiṣedhaṃ</rdg>
-    </rdgGrp>
+    <lem wit="#A">śītapūtanāpratiṣedhaṃ</lem>
+    <rdg wit="#K">śītapūtanā<lb n="3"/>pratiṣedhaṃ <abbr type="suspension">vyā</abbr> <expan>vyā<ex>khyāsyāmaḥ</ex></expan> ||</rdg>
     <rdg wit="#H">śītapūtanāpratiṣedhanīyam adhyāyam</rdg>
   </app>
   <app loc="28,41">
     <lem wit="#A #H">vyākhyāsyāmaḥ</lem>
-    <rdg wit="#K"><abbr type="suspension">vyā</abbr> <expan>vyā<ex>khyāsyāmaḥ</ex></expan> ||</rdg>
+    <rdg wit="#K"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.34.2" source="alignments/SS.6.34.2.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -4729,21 +4704,28 @@
     <rdg wit="#A">mūtraṃ mustaṃ</rdg>
     <rdg wit="#H">mū<lb n="3"/>tramūsta</rdg>
   </app>
-  <app loc="27,37">
-    <lem wit="#K">cāmaradārū</lem>
-    <rdg wit="#A">ca suradāru</rdg>
-    <rdg wit="#H">cāmavadārū</rdg>
+  <app loc="27,39">
+    <lem wit="#K">cāmaradārū ca</lem>
+    <rdg wit="#A">ca suradāru ca |</rdg>
+    <rdg wit="#H">cāmavadārū ca |</rdg>
   </app>
-  <app loc="49,61">
+  <app loc="49,63">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>sarvagandhañ</lem>
-      <rdg type="minor" wit="#H">sarvvagandhañ</rdg>
+      <lem>sarvagandhañ ca</lem>
+      <rdg type="minor" wit="#H">sarvvagandhañ ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">sarvagandhāṃś</rdg>
+    <rdg wit="#A">sarvagandhāṃś ca</rdg>
   </app>
   <app loc="63,73">
     <lem wit="#K #H">tailārtham</lem>
-    <rdg wit="#A">tailārtham</rdg>
+    <rdg wit="#A">tailārtha</rdg>
+  </app>
+  <app loc="73,83">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>avacārayet</lem>
+      <rdg type="minor" wit="#H">avacāra¦<cb/>yet</rdg>
+    </rdgGrp>
+    <rdg wit="#A">mavacārayet ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.34.5" source="alignments/SS.6.34.5.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -4770,8 +4752,11 @@
   </app>
   <app loc="48,57">
     <lem wit="#K">tasminniḥ</lem>
-    <rdg wit="#A">tasminniṣ</rdg>
-    <rdg wit="#H">tasminni</rdg>
+    <rdg wit="#A #H">tasminni</rdg>
+  </app>
+  <app loc="57,63">
+    <lem wit="#K #H">kvāthe</lem>
+    <rdg wit="#A">ṣkvāthe</rdg>
   </app>
   <app loc="71,84">
     <rdgGrp type="lemma" select="#K #H">
@@ -4804,11 +4789,11 @@
       <lem>sahāṃ</lem>
       <rdg type="minor" wit="#H">sahām</rdg>
     </rdgGrp>
-    <rdg wit="#A">mahest</rdg>
+    <rdg wit="#A">mahe</rdg>
   </app>
   <app loc="35,40">
     <lem wit="#K #H">vacāṃ</lem>
-    <rdg wit="#A">vacaḥ |</rdg>
+    <rdg wit="#A">stvacaḥ |</rdg>
   </app>
   <app loc="41,48">
     <rdgGrp type="lemma" select="#K #H">
@@ -4819,11 +4804,10 @@
   </app>
   <app loc="55,60">
     <lem wit="#K #H">tathā</lem>
-    <rdg wit="#A">madhu</rdg>
+    <rdg wit="#A">madhukaṃ</rdg>
   </app>
   <app loc="60,72">
-    <lem wit="#K">dhūpanārthaṃ</lem>
-    <rdg wit="#A">kaṃ dhūpanārthaṃ</rdg>
+    <lem wit="#A #K">dhūpanārthaṃ</lem>
     <rdg wit="#H">pūpanārtham</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.34.7" source="alignments/SS.6.34.7.xml"><interp type="normalization">
@@ -4841,9 +4825,9 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="11,17">
-    <lem wit="#K #H">guñjāñ</lem>
-    <rdg wit="#A">lambāṃ</rdg>
+  <app loc="11,19">
+    <lem wit="#K #H">guñjāñ ca</lem>
+    <rdg wit="#A">lambāṃ ca</rdg>
   </app>
   <app loc="19,25">
     <lem wit="#K #H">lamvāṃ</lem>
@@ -4989,13 +4973,14 @@
   </desc>
 </interp><listApp>
   <app loc="6,24">
-    <lem wit="#K">muṇḍikāpratiṣedhaṃ</lem>
+    <lem>muṇḍikāpratiṣedhaṃ</lem>
     <rdg wit="#A">mukhamaṇḍikāpratiṣedhaṃ</rdg>
+    <rdg wit="#K">muṇḍikāpratiṣedhaṃ <abbr type="suspension">vyā</abbr> <expan>vyā<ex>khyāsyāmaḥ</ex></expan> ||</rdg>
     <rdg wit="#H">mukhamaṇḍikāpratiṣedhanīyam adhyāyam</rdg>
   </app>
   <app loc="24,37">
     <lem wit="#A #H">vyākhyāsyāmaḥ</lem>
-    <rdg wit="#K"><abbr type="suspension">vyā</abbr> <expan>vyā<ex>khyāsyāmaḥ</ex></expan> ||</rdg>
+    <rdg wit="#K"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.35.2" source="alignments/SS.6.35.2.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -5044,12 +5029,12 @@
     <rdg wit="#A">tarkārīvāṃśīgandharvahastakāḥ |</rdg>
     <rdg wit="#H">tarkkārīvaṃśagandharvvahasta<lb n="7"/>kaḥ ||</rdg>
   </app>
-  <app loc="43,52">
+  <app loc="43,54">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>kuverākṣī</lem>
-      <rdg type="minor" wit="#K #H"><caesura/> kuverākṣī</rdg>
+      <lem>kuverākṣī ca</lem>
+      <rdg type="minor" wit="#K #H"><caesura/> kuverākṣī ca</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> kuberākṣī</rdg>
+    <rdg wit="#A"><caesura/> kuberākṣī ca</rdg>
   </app>
   <app loc="54,61">
     <lem wit="#K #H">yojyāni</lem>
@@ -5077,7 +5062,14 @@
 </interp><listApp>
   <app loc="0,9">
     <lem wit="#K"> svarasair</lem>
-    <rdg wit="#A #H">svarasair</rdg>
+    <rdg wit="#A #H">svarasai</rdg>
+  </app>
+  <app loc="9,23">
+    <rdgGrp type="lemma" select="#K">
+      <lem>bhṛṅgavṛkṣāṇāṃ</lem>
+      <rdg type="minor" wit="#K">bhṛṅgavṛkṣā<cb n="2"/>ṇāṃ</rdg>
+    </rdgGrp>
+    <rdg wit="#A #H">rbhṛṅgavṛkṣāṇāṃ</rdg>
   </app>
   <app loc="23,31">
     <lem wit="#K #H">tathaiva</lem>
@@ -5087,13 +5079,9 @@
     <lem wit="#K #H">hayagandhayā</lem>
     <rdg wit="#A">harigandhayoḥ |</rdg>
   </app>
-  <app loc="65,70">
-    <lem wit="#K #H">paced</lem>
-    <rdg wit="#A">paced</rdg>
-  </app>
-  <app loc="70,81">
-    <lem wit="#K #H">abhyañjanaṃ</lem>
-    <rdg wit="#A">abhyañjane</rdg>
+  <app loc="65,81">
+    <lem wit="#K #H">paced abhyañjanaṃ</lem>
+    <rdg wit="#A">pacedabhyañjane</rdg>
   </app>
   <app loc="81,86">
     <lem wit="#K #H">śiśāḥ</lem>
@@ -5114,30 +5102,19 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="9,16">
-    <lem wit="#K #H">payasyā</lem>
-    <rdg wit="#A">yāṃ payas</rdg>
-  </app>
-  <app loc="16,18">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">i</rdg>
+  <app loc="9,18">
+    <lem wit="#K #H">payasyā ca</lem>
+    <rdg wit="#A">yāṃ payasi</rdg>
   </app>
   <app loc="18,28">
     <lem wit="#K">tugākṣīdyo</lem>
     <rdg wit="#A">tugākṣīryāṃ</rdg>
     <rdg wit="#H">tukākṣī<pb n="dscn3367fol392_bottom.jpg"/>dyo</rdg>
   </app>
-  <app loc="28,33">
-    <lem wit="#K">gaṇau</lem>
-    <rdg wit="#A #H">gaṇe</rdg>
-  </app>
-  <app loc="33,35">
-    <lem wit="#K #H">na</lem>
-    <rdg wit="#A">ta</rdg>
-  </app>
-  <app loc="35,37">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">thā |</rdg>
+  <app loc="28,37">
+    <lem wit="#K">gaṇau na ca</lem>
+    <rdg wit="#A">gaṇe tathā |</rdg>
+    <rdg wit="#H">gaṇe na ca |</rdg>
   </app>
   <app loc="38,47">
     <rdgGrp type="lemma" select="#K #H">
@@ -5146,12 +5123,12 @@
     </rdgGrp>
     <rdg wit="#A"><caesura/> madhure</rdg>
   </app>
-  <app loc="47,58">
+  <app loc="47,60">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>pañcamūlyāś</lem>
-      <rdg type="minor" wit="#K">pañcamū<cb n="3"/>lyāś</rdg>
+      <lem>pañcamūlyāś ca</lem>
+      <rdg type="minor" wit="#K">pañcamū<cb n="3"/>lyāś ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">pañcamūle</rdg>
+    <rdg wit="#A">pañcamūle ca</rdg>
   </app>
   <app loc="60,69">
     <lem wit="#K #H">kanīyasyā</lem>
@@ -5214,9 +5191,12 @@
     </rdgGrp>
     <rdg wit="#A">pāradaṃ</rdg>
   </app>
-  <app loc="52,61">
-    <lem wit="#K #H">copaharet</lem>
-    <rdg wit="#A">copahared</rdg>
+  <app loc="52,73">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>copaharet goṣṭhamadhye</lem>
+      <rdg type="minor" wit="#K">copaharet go<cb n="2"/>ṣṭhamadhye</rdg>
+    </rdgGrp>
+    <rdg wit="#A">copaharedgoṣṭhamadhye</rdg>
   </app>
   <app loc="73,78">
     <lem wit="#K #H">valiṃ</lem>
@@ -5333,7 +5313,8 @@
   </desc>
 </interp><listApp>
   <app loc="6,26">
-    <lem wit="#A #K">naigameṣapratiṣedhaṃ</lem>
+    <lem wit="#A">naigameṣapratiṣedhaṃ</lem>
+    <rdg wit="#K">naigameṣapratiṣedhaṃ <abbr type="suspension">vyā</abbr> <expan>vyā<ex>khyāsyāmaḥ</ex></expan> ||</rdg>
     <rdg wit="#H">naigameṣapratiṣedhanīyam adhyāyam</rdg>
   </app>
   <app loc="26,39">
@@ -5341,7 +5322,7 @@
       <lem>vyākhyāsyāmaḥ</lem>
       <rdg type="minor" wit="#H">vyākhyāsyāma<lb n="4"/>ḥ</rdg>
     </rdgGrp>
-    <rdg wit="#K"><abbr type="suspension">vyā</abbr> <expan>vyā<ex>khyāsyāmaḥ</ex></expan> ||</rdg>
+    <rdg wit="#K"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.36.2" source="alignments/SS.6.36.2.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -5386,12 +5367,8 @@
   </app>
   <app loc="21,30">
     <lem wit="#K">kāśmaryāḥ</lem>
-    <rdg wit="#A">kāryāḥ</rdg>
+    <rdg wit="#A">kāryāḥ syuḥ</rdg>
     <rdg wit="#H">kāśmaryā</rdg>
-  </app>
-  <app loc="30,40">
-    <lem wit="#K #H">pariṣecane</lem>
-    <rdg wit="#A">syuḥ pariṣecane |</rdg>
   </app>
   <app loc="41,48">
     <rdgGrp type="lemma" select="#K">
@@ -5451,33 +5428,27 @@
     <lem wit="#K #H"> pañcamūladvayakvāthaiḥ</lem>
     <rdg wit="#A">pañcamūladvayakvāthe</rdg>
   </app>
-  <app loc="41,46">
+  <app loc="41,54">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>paced</lem>
-      <rdg type="minor" wit="#K"><caesura/> pace<cb n="3"/>d</rdg>
-      <rdg type="minor" wit="#H"><caesura/> paced</rdg>
+      <lem>paced ghṛtañ ca</lem>
+      <rdg type="minor" wit="#K"><caesura/> pace<cb n="3"/>d ghṛtañ ca</rdg>
+      <rdg type="minor" wit="#H"><caesura/> paced ghṛtañ ca</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> paced</rdg>
+    <rdg wit="#A"><caesura/> pacedghṛtaṃ ca</rdg>
   </app>
   <app loc="54,61">
     <lem wit="#K">matimāṃ</lem>
     <rdg wit="#A">medhāvī</rdg>
-    <rdg wit="#H">matimān</rdg>
+    <rdg wit="#H">matimā</rdg>
   </app>
   <app loc="61,70">
-    <rdgGrp type="lemma" select="#K #H">
-      <lem>kharjūryā</lem>
-      <rdg type="minor" wit="#H">kharjjūryā</rdg>
-    </rdgGrp>
+    <lem wit="#K">kharjūryā</lem>
     <rdg wit="#A">kharjūrī</rdg>
+    <rdg wit="#H">n kharjjūryā</rdg>
   </app>
-  <app loc="70,79">
-    <lem wit="#K #H">mastakena</lem>
-    <rdg wit="#A">mastake</rdg>
-  </app>
-  <app loc="79,81">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">'pi vā ||</rdg>
+  <app loc="70,81">
+    <lem wit="#K #H">mastakena ca</lem>
+    <rdg wit="#A">mastake 'pi vā ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.36.6ab" source="alignments/SS.6.36.6ab.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -5591,20 +5562,16 @@
     <lem wit="#A #K">mālyaṃ</lem>
     <rdg wit="#H">tulyaṃ</rdg>
   </app>
-  <app loc="20,28">
-    <lem wit="#K #H">bhakṣāṃś</lem>
-    <rdg wit="#A">bhakṣyāṃś</rdg>
+  <app loc="20,30">
+    <lem wit="#K #H">bhakṣāṃś ca</lem>
+    <rdg wit="#A">bhakṣyāṃś ca</rdg>
   </app>
-  <app loc="30,39">
+  <app loc="30,41">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>vividhāni</lem>
-      <rdg type="minor" wit="#K">vi<cb n="2"/>vidhāni</rdg>
+      <lem>vividhāni ca</lem>
+      <rdg type="minor" wit="#K">vi<cb n="2"/>vidhāni ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">vividhāna</rdg>
-  </app>
-  <app loc="39,41">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A">pi |</rdg>
+    <rdg wit="#A">vividhānapi |</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.36.10ab" source="alignments/SS.6.36.10ab.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -5621,13 +5588,9 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,8">
-    <lem wit="#K #H"> adhastān</lem>
-    <rdg wit="#A">adhastā</rdg>
-  </app>
-  <app loc="8,21">
-    <lem wit="#K #H">kṣīravṛkṣasya</lem>
-    <rdg wit="#A">d vaṭavṛkṣasya</rdg>
+  <app loc="0,21">
+    <lem wit="#K #H"> adhastān kṣīravṛkṣasya</lem>
+    <rdg wit="#A">adhastād vaṭavṛkṣasya</rdg>
   </app>
   <app loc="21,29">
     <rdgGrp type="lemma" select="#A #K">
@@ -5719,17 +5682,12 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,6">
+  <app loc="0,11">
     <rdgGrp type="lemma" select="#K">
-      <lem> kumāra</lem>
-      <rdg type="minor" wit="#K">kumāra || <unclear/></rdg>
+      <lem> kumāra || || ❈</lem>
+      <rdg type="minor" wit="#K">kumāra || <unclear/> || ❈</rdg>
     </rdgGrp>
-    <rdg wit="#A">iti suśrutasaṃhitāyām uttaratantrāntargate kumāra</rdg>
-    <rdg wit="#H"/>
-  </app>
-  <app loc="10,11">
-    <lem wit="#K">❈</lem>
-    <rdg wit="#A">tantre naigameṣapratiṣedho nāma (daśamo 'dhyāyaḥ, āditaḥ) ṣaṭtriṃśo 'dhyāyaḥ ||36 ||</rdg>
+    <rdg wit="#A">iti suśrutasaṃhitāyām uttaratantrāntargate kumāratantre naigameṣapratiṣedho nāma (daśamo 'dhyāyaḥ, āditaḥ) ṣaṭtriṃśo 'dhyāyaḥ ||36 ||</rdg>
     <rdg wit="#H">naigameṣapratiṣedhanīyaṃ daśamodhyāya || ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.1" source="alignments/SS.6.37.1.xml"><interp type="normalization">
@@ -5752,12 +5710,12 @@
       <lem>grahotpattiṃ</lem>
       <rdg type="minor" wit="#A">grahotpattim</rdg>
     </rdgGrp>
-    <rdg wit="#H">grahotpatnām</rdg>
+    <rdg wit="#H">grahotpatnā</rdg>
   </app>
   <app loc="18,31">
     <lem wit="#K">vyākhyāsyāmaḥ</lem>
     <rdg wit="#A">adhyāyaṃ vyākhyāsyāmaḥ ||</rdg>
-    <rdg wit="#H">ā<pb n=""/>dhyāyam vyākhyāsyāmaḥ ||</rdg>
+    <rdg wit="#H">mā<pb n=""/>dhyāyam vyākhyāsyāmaḥ ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.2" source="alignments/SS.6.37.2.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -5820,9 +5778,9 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="21,28">
-    <lem wit="#A">bālānāṃ</lem>
-    <rdg wit="#K #H">vālānāṃ</rdg>
+  <app loc="21,30">
+    <lem wit="#A">bālānāṃ ya</lem>
+    <rdg wit="#K #H">vālānāṃ ya</rdg>
   </app>
   <app loc="59,77">
     <lem wit="#K">nārīpuruṣavigrahāṃ</lem>
@@ -5843,12 +5801,9 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="10,12">
-    <rdgGrp type="lemma" select="#K">
-      <lem>ra</lem>
-      <rdg type="minor" wit="#K">ra<damage/><lb n="2"/></rdg>
-    </rdgGrp>
-    <rdg wit="#A #H">rakṣārthaṃ</rdg>
+  <app loc="12,32">
+    <lem wit="#K">kṛttikomāgniśūlibhiḥ</lem>
+    <rdg wit="#A #H">kṣārthaṃ kṛttikomāgniśūlibhiḥ |</rdg>
   </app>
   <app loc="39,54">
     <rdgGrp type="lemma" select="#K #H">
@@ -5923,12 +5878,12 @@
       <lem>guhasyātmodbhavasya</lem>
       <rdg type="minor" wit="#K">guhasyātmo<cb n="3"/>dbhavasya</rdg>
     </rdgGrp>
-    <rdg wit="#A">guhasyātmasa</rdg>
+    <rdg wit="#A">guhasyātmasamaḥ sa</rdg>
     <rdg wit="#H">guhasyātmod bhavasya</rdg>
   </app>
   <app loc="78,81">
     <lem wit="#K">vai</lem>
-    <rdg wit="#A">maḥ sakhā ||</rdg>
+    <rdg wit="#A">khā ||</rdg>
     <rdg wit="#H">ca ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.7" source="alignments/SS.6.37.7.xml"><interp type="normalization">
@@ -5951,35 +5906,28 @@
     <rdg wit="#A">skandāpasmāra</rdg>
     <rdg wit="#H">skandāpasmāraḥ</rdg>
   </app>
-  <app loc="14,22">
-    <rdgGrp type="lemma" select="#K #H">
-      <lem>sañjayaḥ</lem>
-      <rdg type="minor" wit="#H">sañja<cb/> yaḥ</rdg>
+  <app loc="14,24">
+    <rdgGrp type="lemma" select="#H">
+      <lem>sañjayaḥ so</lem>
+      <rdg type="minor" wit="#H">sañja<cb/> yaḥ so</rdg>
     </rdgGrp>
-    <rdg wit="#A">saṃjño yaḥ</rdg>
-  </app>
-  <app loc="22,24">
-    <lem wit="#A #H">so</lem>
-    <rdg wit="#K">s</rdg>
+    <rdg wit="#A">saṃjño yaḥ so</rdg>
+    <rdg wit="#K">sañjayaḥ so</rdg>
   </app>
   <app loc="24,43">
     <lem wit="#A #H">'gnināgnisamadyutiḥ</lem>
-    <rdg wit="#K">ognināgnisamadyutiḥ |</rdg>
+    <rdg wit="#K">gnināgnisamadyutiḥ |</rdg>
   </app>
   <app loc="44,60">
     <rdgGrp type="lemma" select="#K #H">
       <lem>saivaskandasakho</lem>
       <rdg type="minor" wit="#K #H"><caesura/> saivaskandasakho</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> sa ca skandasakh</rdg>
+    <rdg wit="#A"><caesura/> sa ca skandasakhā</rdg>
   </app>
   <app loc="60,65">
     <lem wit="#K #H">nāmnā</lem>
-    <rdg wit="#A">ā nā</rdg>
-  </app>
-  <app loc="65,72">
-    <lem wit="#K #H">viśākha</lem>
-    <rdg wit="#A">ma viśākha</rdg>
+    <rdg wit="#A">nāma</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.8" source="alignments/SS.6.37.8.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -6030,20 +5978,16 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,13">
-    <lem wit="#A"> bālalīlādharo</lem>
+  <app loc="0,15">
+    <lem wit="#A"> bālalīlādharo yo</lem>
     <rdgGrp select="#K #H">
-      <rdg type="main">vālalīlādharo</rdg>
-      <rdg type="minor" wit="#K">vālalīlā<cb n="2"/>dharo</rdg>
+      <rdg type="main">vālalīlādharo yo</rdg>
+      <rdg type="minor" wit="#K">vālalīlā<cb n="2"/>dharo yo</rdg>
     </rdgGrp>
-  </app>
-  <app loc="13,15">
-    <lem wit="#A">yo</lem>
-    <rdg wit="#K #H">y</rdg>
   </app>
   <app loc="15,19">
     <lem wit="#A">'yaṃ</lem>
-    <rdg wit="#K #H">oyaṃ</rdg>
+    <rdg wit="#K #H">yaṃ</rdg>
   </app>
   <app loc="19,23">
     <lem wit="#A #K">devo</lem>
@@ -6058,16 +6002,12 @@
     <rdg wit="#A">cāreṣu</rdg>
     <rdg wit="#K #H">vāleṣu</rdg>
   </app>
-  <app loc="53,61">
+  <app loc="53,63">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>bhavavāṃ</lem>
-      <rdg type="minor" wit="#H">bhavavān</rdg>
+      <lem>bhavavāṃ na</lem>
+      <rdg type="minor" wit="#H">bhavavān na</rdg>
     </rdgGrp>
-    <rdg wit="#A">bhagavān</rdg>
-  </app>
-  <app loc="61,63">
-    <lem wit="#K #H">na</lem>
-    <rdg wit="#A">sva</rdg>
+    <rdg wit="#A">bhagavān sva</rdg>
   </app>
   <app loc="63,71">
     <rdgGrp type="lemma" select="#K #H">
@@ -6091,35 +6031,25 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,20">
+  <app loc="0,24">
     <rdgGrp type="lemma" select="#K #H">
-      <lem> kumāraskandasāmānyād</lem>
-      <rdg type="minor" wit="#H">kumāraska<lb n="5"/>ndasāmānyād</rdg>
+      <lem> kumāraskandasāmānyād atra</lem>
+      <rdg type="minor" wit="#H">kumāraska<lb n="5"/>ndasāmānyād atra</rdg>
     </rdgGrp>
-    <rdg wit="#A">kumāraḥ skandasāmānyād</rdg>
+    <rdg wit="#A">kumāraḥ skandasāmānyādatra</rdg>
   </app>
-  <app loc="24,29">
-    <lem>kecid</lem>
-    <rdg wit="#A #K #H">kecid</rdg>
+  <app loc="24,38">
+    <lem>kecid apaṇḍitāḥ</lem>
+    <rdg wit="#A">kecidapaṇḍitāḥ |</rdg>
+    <rdg wit="#K #H">kecid paṇḍitāḥ |</rdg>
   </app>
-  <app loc="29,38">
-    <lem wit="#A">apaṇḍitāḥ</lem>
-    <rdg wit="#K #H">paṇḍitāḥ |</rdg>
-  </app>
-  <app loc="39,59">
-    <lem>gṛṇhātīty aparijñānād</lem>
-    <rdg wit="#A"><caesura/> gṛhṇātītyalpavijñānā</rdg>
+  <app loc="39,66">
+    <lem>gṛṇhātīty aparijñānād bruvate</lem>
+    <rdg wit="#A"><caesura/> gṛhṇātītyalpavijñānā bruvate</rdg>
     <rdgGrp select="#K #H">
-      <rdg type="main"> gṛṇhātītya parijñānād</rdg>
-      <rdg type="minor" wit="#K"><caesura/> gṛṇhātītya parijñā<cb n="3"/>nād</rdg>
-      <rdg type="minor" wit="#H"><caesura/> gṛṇhātītya parijñānād</rdg>
-    </rdgGrp>
-  </app>
-  <app loc="59,66">
-    <lem wit="#A">bruvate</lem>
-    <rdgGrp select="#K #H">
-      <rdg type="main">vruvate</rdg>
-      <rdg type="minor" wit="#H">vruvate<cb/></rdg>
+      <rdg type="main"> gṛṇhātītya parijñānād vruvate</rdg>
+      <rdg type="minor" wit="#K"><caesura/> gṛṇhātītya parijñā<cb n="3"/>nād vruvate</rdg>
+      <rdg type="minor" wit="#H"><caesura/> gṛṇhātītya parijñānād vruvate<cb/></rdg>
     </rdgGrp>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.11" source="alignments/SS.6.37.11.xml"><interp type="normalization">
@@ -6146,18 +6076,17 @@
       <lem>upatasthur</lem>
       <rdg type="minor" wit="#K #H"><caesura/> upatasthur</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> upatasthur</rdg>
+    <rdg wit="#A"><caesura/> upatasthu</rdg>
   </app>
   <app loc="47,53">
-    <rdgGrp type="lemma" select="#A">
-      <lem>grahās</lem>
-      <rdg type="minor" wit="#A">grahāḥ</rdg>
-    </rdgGrp>
-    <rdg wit="#K #H">grahās</rdg>
+    <lem>grahās</lem>
+    <rdg wit="#A">rgrahāḥ</rdg>
+    <rdg wit="#K #H">grahā</rdg>
   </app>
   <app loc="53,58">
-    <lem wit="#K #H">dyute</lem>
+    <lem>dyute</lem>
     <rdg wit="#A">sarve</rdg>
+    <rdg wit="#K #H">sdyute</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.12" source="alignments/SS.6.37.12.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -6176,18 +6105,18 @@
 </interp><listApp>
   <app loc="4,13">
     <lem wit="#K #H">prāñjalaś</lem>
-    <rdg wit="#A">prāñjalayaś</rdg>
+    <rdg wit="#A">prāñjala</rdg>
   </app>
   <app loc="13,21">
     <lem wit="#K #H">caivanaṃ</lem>
-    <rdg wit="#A">cainaṃ</rdg>
+    <rdg wit="#A">yaś cainaṃ</rdg>
   </app>
-  <app loc="27,29">
+  <app loc="21,29">
     <rdgGrp type="lemma" select="#A #K">
-      <lem>no</lem>
-      <rdg type="minor" wit="#A">naḥ</rdg>
+      <lem>vṛttin no</lem>
+      <rdg type="minor" wit="#A">vṛttiṃ naḥ</rdg>
     </rdgGrp>
-    <rdg wit="#H">na</rdg>
+    <rdg wit="#H">vṛttin na</rdg>
   </app>
   <app loc="29,42">
     <lem>vidhdhātsv iti</lem>
@@ -6200,11 +6129,19 @@
       <lem>teṣām</lem>
       <rdg type="minor" wit="#K #H"><caesura/> teṣām</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> teṣām</rdg>
+    <rdg wit="#A"><caesura/> teṣā</rdg>
+  </app>
+  <app loc="48,53">
+    <lem wit="#K #H">arthe</lem>
+    <rdg wit="#A">marthe</rdg>
   </app>
   <app loc="70,75">
     <lem wit="#K">devam</lem>
-    <rdg wit="#A #H">devam</rdg>
+    <rdg wit="#A #H">deva</rdg>
+  </app>
+  <app loc="75,83">
+    <lem wit="#K">acodayat</lem>
+    <rdg wit="#A #H">macodayat ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.13" source="alignments/SS.6.37.13.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -6226,38 +6163,38 @@
       <lem>grahāṃ</lem>
       <rdg type="minor" wit="#K">gra<cb n="2"/>hāṃ</rdg>
     </rdgGrp>
-    <rdg wit="#H">grahā</rdg>
+    <rdg wit="#H">grahās</rdg>
   </app>
-  <app loc="10,13">
-    <lem wit="#K">tān</lem>
-    <rdg wit="#A">stān</rdg>
-    <rdg wit="#H">s tān</rdg>
+  <app loc="10,18">
+    <lem wit="#K #H">tān uvāca</lem>
+    <rdg wit="#A">stānuvāca</rdg>
   </app>
   <app loc="18,26">
     <lem wit="#K">bhagavāṃ</lem>
-    <rdg wit="#A #H">bhagavān</rdg>
+    <rdg wit="#A #H">bhagavā</rdg>
   </app>
   <app loc="26,38">
-    <lem wit="#K #H">bhaganetrahā</lem>
-    <rdg wit="#A">bhaganetrahṛt |</rdg>
+    <lem wit="#K">bhaganetrahā</lem>
+    <rdg wit="#A">n bhaganetrahṛ</rdg>
+    <rdg wit="#H">n bhaganetrahā |</rdg>
   </app>
   <app loc="39,51">
     <rdgGrp type="lemma" select="#K #H">
       <lem>tairyagyonim</lem>
       <rdg type="minor" wit="#K #H"><caesura/> tairyagyonim</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> tiryagyoniṃ</rdg>
+    <rdg wit="#A">t | <caesura/> tiryagyoniṃ</rdg>
   </app>
-  <app loc="58,60">
+  <app loc="51,60">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>ca</lem>
-      <rdg type="minor" wit="#H">ca ¦</rdg>
+      <lem>mānuṣañ ca</lem>
+      <rdg type="minor" wit="#H">mānuṣañ ca ¦</rdg>
     </rdgGrp>
-    <rdg wit="#A"/>
+    <rdg wit="#A">mānuṣaṃ</rdg>
   </app>
-  <app loc="60,65">
-    <lem wit="#K #H">devañ</lem>
-    <rdg wit="#A"/>
+  <app loc="60,67">
+    <lem wit="#K #H">devañ ca</lem>
+    <rdg wit="#A">ca</rdg>
   </app>
   <app loc="67,75">
     <lem wit="#A #K">tritayaṃ</lem>
@@ -6287,7 +6224,14 @@
       <lem>devamanuṣyāṃ</lem>
       <rdg type="minor" wit="#K"><caesura/> devamanuṣyāṃ</rdg>
     </rdgGrp>
-    <rdg wit="#A #H"><caesura/> devā manuṣyān</rdg>
+    <rdg wit="#A #H"><caesura/> devā manuṣyā</rdg>
+  </app>
+  <app loc="51,59">
+    <rdgGrp type="lemma" select="#K">
+      <lem>prīṇanti</lem>
+      <rdg type="minor" wit="#K">prīṇa<cb n="3"/>nti</rdg>
+    </rdgGrp>
+    <rdg wit="#A #H">n prīṇanti</rdg>
   </app>
   <app loc="59,71">
     <lem wit="#K #H">tairyagyonin</lem>
@@ -6314,7 +6258,7 @@
   </app>
   <app loc="10,22">
     <lem wit="#K #H">pravarttanta</lem>
-    <rdg wit="#A">śītavar</rdg>
+    <rdg wit="#A">śīta</rdg>
   </app>
   <app loc="22,27">
     <lem wit="#K #H">uṣṇaṃ</lem>
@@ -6322,7 +6266,7 @@
   </app>
   <app loc="27,43">
     <lem wit="#K #H">varṣahimādribhiḥ</lem>
-    <rdg wit="#A">ṣoṣṇamārutaiḥ |</rdg>
+    <rdg wit="#A">varṣoṣṇamārutaiḥ |</rdg>
   </app>
   <app loc="44,63">
     <lem>ijyābalinamaskārair</lem>
@@ -6343,18 +6287,18 @@
       <lem>homais</lem>
       <rdg type="minor" wit="#H"><unclear>ho</unclear>mais</rdg>
     </rdgGrp>
-    <rdg wit="#A">hom</rdg>
+    <rdg wit="#A">homa</rdg>
   </app>
   <app loc="74,82">
     <rdgGrp type="lemma" select="#K #H">
       <lem>tathaiva</lem>
       <rdg type="minor" wit="#K">ta<lb n="5"/>thaiva</rdg>
     </rdgGrp>
-    <rdg wit="#A"/>
+    <rdg wit="#A">vratādi</rdg>
   </app>
   <app loc="82,85">
     <lem wit="#K">caḥ</lem>
-    <rdg wit="#A">avratādibhiḥ ||</rdg>
+    <rdg wit="#A">bhiḥ ||</rdg>
     <rdg wit="#H">ca ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.16" source="alignments/SS.6.37.16.xml"><interp type="normalization">
@@ -6372,9 +6316,9 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="0,6">
-    <lem wit="#K #H"> samyak</lem>
-    <rdg wit="#A">narāḥ samyak</rdg>
+  <app loc="0,18">
+    <lem wit="#K #H"> samyak prayuktaiś ca</lem>
+    <rdg wit="#A">narāḥ samyak prayuktaiś ca</rdg>
   </app>
   <app loc="18,24">
     <lem wit="#K #H">naraiḥ</lem>
@@ -6383,28 +6327,28 @@
   <app loc="24,34">
     <lem wit="#K">prīṇayaṃty</lem>
     <rdg wit="#A">prīṇanti</rdg>
-    <rdg wit="#H">prīṇayanty</rdg>
+    <rdg wit="#H">prīṇayan</rdg>
   </app>
   <app loc="34,37">
     <lem wit="#K">atu</lem>
-    <rdg wit="#A">tri</rdg>
-    <rdg wit="#H">a t</rdg>
+    <rdg wit="#A">tridi</rdg>
+    <rdg wit="#H">tya ta</rdg>
   </app>
   <app loc="37,44">
     <lem wit="#K">devatāḥ</lem>
-    <rdg wit="#A">diveśvarān |</rdg>
-    <rdg wit="#H">adevatāṃ |</rdg>
+    <rdg wit="#A">veśvarā</rdg>
+    <rdg wit="#H">devatāṃ |</rdg>
   </app>
   <app loc="45,55">
     <rdgGrp type="lemma" select="#K #H">
       <lem>bhāgadheyā</lem>
       <rdg type="minor" wit="#K #H"><caesura/> bhāgadheyā</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> bhāgadheyaṃ</rdg>
+    <rdg wit="#A">n | <caesura/> bhāgadheyaṃ</rdg>
   </app>
-  <app loc="55,64">
-    <lem wit="#K #H">vibhaktāś</lem>
-    <rdg wit="#A">vibhaktaṃ</rdg>
+  <app loc="55,66">
+    <lem wit="#K #H">vibhaktāś ca</lem>
+    <rdg wit="#A">vibhaktaṃ ca</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.17" source="alignments/SS.6.37.17.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -6423,19 +6367,19 @@
 </interp><listApp>
   <app loc="16,22">
     <lem wit="#K #H">vṛttiḥ</lem>
-    <rdg wit="#A">vṛttir</rdg>
+    <rdg wit="#A">vṛtti</rdg>
   </app>
   <app loc="22,28">
     <lem wit="#K #H">pūjāsv</lem>
-    <rdg wit="#A">bāleṣv</rdg>
+    <rdg wit="#A">rbāleṣv</rdg>
   </app>
   <app loc="60,73">
     <lem wit="#K #H">devatāpitaras</lem>
-    <rdg wit="#A">devāḥ pitara e</rdg>
+    <rdg wit="#A">devāḥ pitara</rdg>
   </app>
   <app loc="73,78">
     <lem wit="#K #H">tathā</lem>
-    <rdg wit="#A">va ca ||</rdg>
+    <rdg wit="#A">eva ca ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.18" source="alignments/SS.6.37.18.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -6462,33 +6406,33 @@
   </app>
   <app loc="20,26">
     <lem wit="#A #H">guravo</lem>
-    <rdg wit="#K">gurav</rdg>
+    <rdg wit="#K">guravo</rdg>
   </app>
   <app loc="26,35">
     <lem wit="#A #H">'tithayas</lem>
-    <rdg wit="#K">otithaya<cb n="3"/>s</rdg>
+    <rdg wit="#K">tithaya<cb n="3"/>s</rdg>
   </app>
   <app loc="40,47">
     <rdgGrp type="lemma" select="#K #H">
       <lem>nivṛtta</lem>
       <rdg type="minor" wit="#K #H"><caesura/> nivṛtta</rdg>
     </rdgGrp>
-    <rdg wit="#A"><caesura/> nivṛtt</rdg>
+    <rdg wit="#A"><caesura/> nivṛttā</rdg>
   </app>
   <app loc="47,58">
     <lem wit="#K #H">śaucācāreṣu</lem>
-    <rdg wit="#A">ācāraśauceṣu</rdg>
+    <rdg wit="#A">cāraśauceṣu</rdg>
   </app>
   <app loc="58,63">
     <lem wit="#K #H">tathā</lem>
-    <rdg wit="#A">parapā</rdg>
+    <rdg wit="#A">para</rdg>
   </app>
   <app loc="63,76">
     <rdgGrp type="lemma" select="#K #H">
       <lem>klaśopajīviṣu</lem>
       <rdg type="minor" wit="#H"><unclear>kla</unclear>śopajīviṣu</rdg>
     </rdgGrp>
-    <rdg wit="#A">kopajīviṣu ||</rdg>
+    <rdg wit="#A">pākopajīviṣu ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.19" source="alignments/SS.6.37.19.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -6507,43 +6451,37 @@
 </interp><listApp>
   <app loc="0,19">
     <lem wit="#K #H"> utsannabhikṣavaliṣu</lem>
-    <rdg wit="#A">utsannabalibhikṣeṣu</rdg>
+    <rdg wit="#A">utsannabalibhi</rdg>
   </app>
   <app loc="19,24">
     <lem wit="#K #H">tathā</lem>
-    <rdg wit="#A"/>
+    <rdg wit="#A">kṣeṣu</rdg>
   </app>
-  <app loc="24,36">
+  <app loc="24,38">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>bhinnagṛheṣu</lem>
-      <rdg type="minor" wit="#H">bhi<lb n="3"/>nnagṛheṣu</rdg>
+      <lem>bhinnagṛheṣu ca</lem>
+      <rdg type="minor" wit="#H">bhi<lb n="3"/>nnagṛheṣu ca</rdg>
     </rdgGrp>
     <rdg wit="#A">bhinnakāṃsyopabhojiṣu |</rdg>
   </app>
-  <app loc="36,38">
-    <lem wit="#K #H">ca</lem>
-    <rdg wit="#A"/>
-  </app>
-  <app loc="45,49">
+  <app loc="45,51">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>yeṣu</lem>
-      <rdg type="minor" wit="#K">ye<lb n="6"/>ṣu</rdg>
+      <lem>yeṣu te</lem>
+      <rdg type="minor" wit="#K">ye<lb n="6"/>ṣu te</rdg>
     </rdgGrp>
-    <rdg wit="#A">teṣu</rdg>
+    <rdg wit="#A">teṣu ye</rdg>
   </app>
-  <app loc="49,51">
-    <lem wit="#K #H">te</lem>
-    <rdg wit="#A">ye</rdg>
+  <app loc="51,57">
+    <lem>bālāms</lem>
+    <rdg wit="#A">bālā</rdg>
+    <rdg wit="#K">vālām</rdg>
+    <rdg wit="#H">vālā</rdg>
   </app>
-  <app loc="51,60">
-    <lem>bālāms tān</lem>
-    <rdg wit="#A">bālāstān</rdg>
-    <rdg wit="#K">vālām stān</rdg>
-    <rdg wit="#H">vālāñ stān</rdg>
-  </app>
-  <app loc="60,66">
-    <lem wit="#K #H">hiṃsaṃ</lem>
-    <rdg wit="#A">gṛhṇī</rdg>
+  <app loc="57,66">
+    <lem>tān hiṃsaṃ</lem>
+    <rdg wit="#A">stān gṛhṇī</rdg>
+    <rdg wit="#K">stān hiṃsaṃ</rdg>
+    <rdg wit="#H">ñ stān hiṃsaṃ</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.20" source="alignments/SS.6.37.20.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -6561,8 +6499,7 @@
   </desc>
 </interp><listApp>
   <app loc="59,63">
-    <lem>bālā</lem>
-    <rdg wit="#A">bālān</rdg>
+    <lem wit="#A">bālā</lem>
     <rdg wit="#K #H">vālā</rdg>
   </app>
   <app loc="63,71">
@@ -6570,7 +6507,7 @@
       <lem>hiṃsanti</lem>
       <rdg type="minor" wit="#K #H">hiṃ santi</rdg>
     </rdgGrp>
-    <rdg wit="#A">gṛhṇanti</rdg>
+    <rdg wit="#A">n gṛhṇanti</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.21" source="alignments/SS.6.37.21.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -6587,9 +6524,9 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="12,17">
-    <lem wit="#A">bālās</lem>
-    <rdg wit="#K #H">vālās</rdg>
+  <app loc="12,19">
+    <lem wit="#A">bālās tu</lem>
+    <rdg wit="#K #H">vālās tu</rdg>
   </app>
   <app loc="19,35">
     <lem wit="#K #H">duścikitsyatamāḥ</lem>
@@ -6646,41 +6583,41 @@
   </app>
   <app loc="23,36">
     <lem wit="#K #H">skandāpasmāra</lem>
-    <rdg wit="#A">sarv</rdg>
+    <rdg wit="#A">sarveṣv</rdg>
   </app>
-  <app loc="36,39">
-    <lem wit="#K #H">eva</lem>
-    <rdg wit="#A">eṣv eva</rdg>
+  <app loc="36,41">
+    <lem wit="#K #H">eva ca</lem>
+    <rdg wit="#A">e</rdg>
   </app>
-  <app loc="39,49">
+  <app loc="43,49">
     <rdgGrp type="lemma" select="#K #H">
-      <lem>ca || śakunī</lem>
-      <rdg type="minor" wit="#K #H">ca || <caesura/> śakunī</rdg>
+      <lem>śakunī</lem>
+      <rdg type="minor" wit="#K #H"><caesura/> śakunī</rdg>
     </rdgGrp>
-    <rdg wit="#A">yataḥ smṛtaḥ | <caesura/> an</rdg>
+    <rdg wit="#A"/>
   </app>
   <app loc="49,55">
     <lem wit="#K #H">revatī</lem>
-    <rdg wit="#A">yo v</rdg>
+    <rdg wit="#A"/>
   </app>
   <app loc="55,60">
     <lem wit="#K #H">caiva</lem>
-    <rdg wit="#A">ā sarva</rdg>
+    <rdg wit="#A">va</rdg>
   </app>
   <app loc="60,66">
     <rdgGrp type="lemma" select="#K #H">
       <lem>pūtanā</lem>
       <rdg type="minor" wit="#K">pūta<lb n="7"/>nā</rdg>
     </rdgGrp>
-    <rdg wit="#A">rūpas</rdg>
+    <rdg wit="#A"/>
   </app>
   <app loc="66,72">
     <lem wit="#K #H">cāndha</lem>
-    <rdg wit="#A">tu n</rdg>
+    <rdg wit="#A"/>
   </app>
   <app loc="72,78">
     <lem wit="#K #H">pūtanā</lem>
-    <rdg wit="#A">a sādhyo graha ucyate ||</rdg>
+    <rdg wit="#A">yataḥ smṛtaḥ | <caesura/> anyo vā sarvarūpas tu na sādhyo graha ucyate ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.37.23" source="alignments/SS.6.37.23.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -6711,12 +6648,12 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="42,50">
+  <app loc="42,54">
     <rdgGrp type="lemma" select="#K">
-      <lem>sampiṇḍe</lem>
-      <rdg type="minor" wit="#K"><caesura/> sampiṇḍe</rdg>
+      <lem>sampiṇḍe na hi</lem>
+      <rdg type="minor" wit="#K"><caesura/> sampiṇḍe na hi<cb n="3"/></rdg>
     </rdgGrp>
-    <rdg wit="#H"><caesura/> sampiṇḍu</rdg>
+    <rdg wit="#H"><caesura/> sampiṇḍu na hi</rdg>
   </app>
   <app loc="54,61">
     <lem>bālānām</lem>
@@ -6744,17 +6681,17 @@
 </interp><listApp>
   <app loc="0,8">
     <lem wit="#K"> samāptaṃ</lem>
-    <rdg wit="#A">iti suśrutasaṃhitāyām uttaratantrāntargate</rdg>
+    <rdg wit="#A">iti suśrutasaṃhitāyām u</rdg>
     <rdg wit="#H">iti</rdg>
   </app>
   <app loc="8,21">
     <lem wit="#K">kumārabhṛtyam</lem>
-    <rdg wit="#A">kumāratantre grahotpattyadh</rdg>
-    <rdg wit="#H">kumāratantre grahotpatt</rdg>
+    <rdg wit="#A">ttaratantrānta</rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="21,24">
     <lem wit="#K">iti</lem>
-    <rdg wit="#A">yāyo nāma (ekādaśo 'dhyāyaḥ, āditaḥ) saptatriṃśattamo 'dhyāyaḥ ||37 ||</rdg>
-    <rdg wit="#H">in nāmaikādaśamodhyāya uttaratantre pañcatriṃśattamo 'dhyā<pb n="dscn3369fol394_top.jpg"/>yaḥ || ||</rdg>
+    <rdg wit="#A">rgate kumāratantre grahotpattyadhyāyo nāma (ekādaśo 'dhyāyaḥ, āditaḥ) saptatriṃśattamo 'dhyāyaḥ ||37 ||</rdg>
+    <rdg wit="#H">kumāratantre grahotpattin nāmaikādaśamodhyāya uttaratantre pañcatriṃśattamo 'dhyā<pb n="dscn3369fol394_top.jpg"/>yaḥ || ||</rdg>
   </app>
 </listApp></standOff></TEI>
